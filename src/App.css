@@ -1,0 +1,138 @@
+body {
+    font-family:sans-serif;
+    margin: 0;
+    border-bottom: 37px solid white;
+    }
+
+    /* TITLE STYLES */
+    h1#codeCommTitle {
+    font-size: 137px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #5ce1e6;
+    text-shadow: .25px .25px black;
+    text-transform: uppercase;
+
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -347px;
+    top: 350px;
+    }
+
+    #codeCommTagline {
+    font-size: xx-large;
+    font-family: serif;
+    color: #c8c4bd;
+    text-shadow: .15px .15px black;
+
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -77px;
+    top: 450px;
+    }
+
+    .socialIcons {
+    width: 44px;
+    position: absolute;
+    top: 877px;
+    }
+
+    #globe {
+    left: 41px;
+    }
+
+    #share {
+    left: 91px;
+    }
+
+    /* FOOTER STYLES */
+    #lmdev-logo {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    
+    border-bottom: 1px solid #5ce1e6;
+    padding-bottom: 87px;
+    }
+
+    div#lmdev-logo > a > img {
+    width: 40%;
+    }
+    
+    h2 {
+    font-size: small;
+    text-align: center;
+    }
+    
+    .center {
+    text-align: center;
+    }
+    
+    footer > #footer-details {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+    a#resumeFile:hover {
+    color: #5ce1e6 !important;
+    }
+    
+    #resumeFile {
+    font-size: small;
+    color: #545454 !important;
+    text-decoration: none !important;
+    }
+
+    #resumeBtn {
+    width: 247px;
+    padding: 9px;
+    border-radius: 24px;
+    border-color: #5ce1e6;
+    background-color: lightcyan;
+    }
+    
+    p#resume > button#resumeBtn > a {
+    font-weight: 887px;
+    }
+
+    #trelloBoardScan {
+    width: 144px;
+    border: 1.05px dotted #5ce1e6;
+    margin: -7px;
+    margin-bottom: 22px;
+    }
+        
+    .notbold {
+    font-weight: normal;
+    }
+    
+    #firstNameInFooter {
+    color: #5ce1e6;
+    font-weight: bold;
+    font-size: large;
+    }
+   
+    .notbold {
+    font-size: small;
+    }
+
+    h3.center {
+    line-height: 17px;
+    }
+
+    .pronunciation {
+    font-style: italic;
+    font-size: x-small;
+    margin-bottom: -3px;
+    }
+    
+    #bizEmail {
+    color: black;
+    text-decoration: none !important;
+    font-size: small;
+    }
+    
+    #bizEmail:hover {
+    color: #5ce1e6;
+    }

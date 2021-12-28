@@ -55,12 +55,12 @@ class Footer extends React.Component {
         <div>
         <h3 class="center">
         <span class="notbold">
-        <span id="firstNameInFooter">La'Tonia Mertica</span><br />
+        <span id="firstNameInFooter">©La'Tonia Mertica</span><br />
         <p class="notbold pronunciation">
         luh tone yuh merr treece
         </p>
         
-        <br />
+        {/* <br />
         Founder & Executive Officer<br />
         PUBLICLY ANONYMOUS, LLC<br />
         ©2019-2022 La'Tonia Mertica 'Comms & Creas
@@ -75,7 +75,7 @@ class Footer extends React.Component {
         target="_blank" 
         rel="noreferrer"
         >designs@latoniamertica.com</a
-        >
+        > */}
         </span>
         </h3>
         </div>

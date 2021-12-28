@@ -26,6 +26,9 @@ function App() {
         {/* <Route path="/nav" component={Nav}>
         </Route> */}
 
+        <Route exact path="/" component={Landing}>
+        </Route>  
+
         <Route path="/codemind" component={CodeMind}>
         </Route>
 
@@ -50,8 +53,6 @@ function App() {
         {/* <Route path="/footer" component={Footer}>
         </Route> */}
 
-        <Route exact path="/" component={Landing}>
-        </Route>
         <Route default component={NotFound}/>
       </Routes>
 

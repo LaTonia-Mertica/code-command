@@ -1,10 +1,10 @@
-import NotFound from './components/NotFound'
+import NotFound from './components/NotFound';
 
 import './App.css';
 import React from 'react';
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
-// import Nav from './components/Nav';
+import Nav from './components/Nav';
 import CodeMind from './components/CodeMind';
 import Coding from './components/Coding';
 import MacBasics from './components/MacBasics';
@@ -12,51 +12,52 @@ import Online from './components/Online';
 import Resources from './components/Resources';
 import Search from './components/Search';
 import WorkFlow from './components/WorkFlow';
-// import Footer from './components/Footer';
-import Landing from './components/Landing'
+import Footer from './components/Footer';
+import Landing from './components/Landing';
 
 
+// path/component format works for nav and footer below while not for the other paths aka routes ... 
 function App() {
   return (
     <Router>
     <div className="App container">    
-      {/* <Nav /> */}
+      <Nav />
 
       <Routes>
-        {/* <Route path="/nav" component={Nav}>
-        </Route> */}
-
-        <Route exact path="/" component={Landing}>
-        </Route>  
-
-        <Route path="/codemind" component={CodeMind}>
+        <Route path="/nav" component={Nav}>
         </Route>
 
-        <Route path="/coding" component={Coding}>
+        <Route exact path="/codemind" element={< CodeMind />}>
         </Route>
 
-        <Route path="/macbasics" component={MacBasics}>
+        <Route exact path="/coding" element={< Coding />}>
         </Route>
 
-        <Route path="/online" component={Online}>
+        <Route exact path='/macbasics' element={< MacBasics />}>
         </Route>
 
-        <Route path="/resources" component={Resources}>
+        <Route exact path="/online" element={< Online />}>
         </Route>
 
-        <Route path="/search" component={Search}>
+        <Route exact path="/resources" element={< Resources />}>
         </Route>
 
-        <Route path="/workflow" component={WorkFlow}>
+        <Route exact path="/search" element={< Search />}>
         </Route>
 
-        {/* <Route path="/footer" component={Footer}>
-        </Route> */}
+        <Route exact path="/workflow" element={< WorkFlow />}>
+        </Route>
 
-        <Route default component={NotFound}/>
+        <Route path="/footer" element={Footer}>
+        </Route>
+
+        <Route exact path="/" element={< Landing />}>
+        </Route> 
+
+        <Route default exact path="/notfound" element={< NotFound />}/>
       </Routes>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
     </Router>
   );

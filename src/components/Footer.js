@@ -10,6 +10,17 @@ class Footer extends React.Component {
     return (
         <footer class="container-fluid">
         
+        <p id="resume" class="center">
+        <button id="resumeBtn" title="resume pdf">
+        <a href={LaToniaMerticaResume} id="resumeFile"
+        target="_blank" 
+        rel="noreferrer"
+        >access resume</a
+        >
+        </button>
+        </p>
+        <br />
+
         <div class="center" id="footer-details">
         <div id="lmdev-logo">
         <a href="https://www.latoniamertica.dev/"
@@ -23,17 +34,6 @@ class Footer extends React.Component {
         </a>
         </div>
         </div>
-        <br />
-
-        <p id="resume" class="center">
-        <button id="resumeBtn" title="resume pdf">
-        <a href={LaToniaMerticaResume} id="resumeFile"
-        target="_blank" 
-        rel="noreferrer"
-        >access resume</a
-        >
-        </button>
-        </p>
         <br />
         
         <div class="center">

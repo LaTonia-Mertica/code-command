@@ -45,17 +45,42 @@ body {
     }
 
     /* FOOTER STYLES */
+    a#resumeFile:hover {
+        color: #5ce1e6 !important;
+        }
+        
+    #resumeFile {
+        font-size: small;
+        color: #545454 !important;
+        text-decoration: none !important;
+        }
+    
+    #resumeBtn {
+        width: 247px;
+        padding: 9px;
+        border-radius: 24px;
+        border-color: #5ce1e6;
+        background-color: lightcyan;
+
+        margin-top: 15px;
+        margin-bottom: -5px;
+        }
+        
+    /* p#resume > button#resumeBtn > a {
+        font-weight: 887px;
+        }
+     */
+
     #lmdev-logo {
     text-align: center;
-    margin-top: 50px;
     margin-bottom: 15px;
     
-    border-bottom: 1px solid #5ce1e6;
-    padding-bottom: 87px;
+    border-top: 1px solid #5ce1e6;
+    padding-top: 15px;
     }
 
     div#lmdev-logo > a > img {
-    width: 40%;
+    width: 44%;
     }
     
     h2 {
@@ -74,32 +99,9 @@ body {
     flex-wrap: wrap;
     }
 
-    a#resumeFile:hover {
-    color: #5ce1e6 !important;
-    }
-    
-    #resumeFile {
-    font-size: small;
-    color: #545454 !important;
-    text-decoration: none !important;
-    }
-
-    #resumeBtn {
-    width: 247px;
-    padding: 9px;
-    border-radius: 24px;
-    border-color: #5ce1e6;
-    background-color: lightcyan;
-    }
-    
-    p#resume > button#resumeBtn > a {
-    font-weight: 887px;
-    }
-
     #trelloBoardScan {
-    width: 144px;
+    width: 113px;
     border: 1.05px dotted #5ce1e6;
-    margin: -7px;
     margin-bottom: 22px;
     }
         

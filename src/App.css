@@ -19,7 +19,7 @@ body {
     transform: rotate(-90deg);
     position: absolute;
     left: -347px;
-    top: 350px;
+    top: 400px;
     }
 
     #codeCommTagline {
@@ -31,14 +31,15 @@ body {
     transform: rotate(-90deg);
     position: absolute;
     left: -77px;
-    top: 450px;
+    top: 475px;
     }
 
     /* SOCIAL ICON STYLES IN TITLE */
     .socialIcons {
     width: 44px;
     position: absolute;
-    top: 877px;
+    top: 923px;
+    padding-bottom: 67px;
     }
 
     #globe {
@@ -51,6 +52,7 @@ body {
 
     /* NOT FOUND PAGE STYLES */
     .notFoundPgText {
+        color: red;
         font-size: xx-large;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-weight: bold;
@@ -64,6 +66,7 @@ body {
     }
 
     .bottomLine {
+        color: white;
         font-size: small;
         text-align: center;
         margin-top: -144px;
@@ -75,11 +78,25 @@ body {
         transform: scale(1.25);
     }
 
+    .notFoundPageVideo {
+        width: 100%;
+        height: auto;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        z-index: -13;
+
+        filter: invert();
+    }
+
 
     /* LANDING PAGE BUTTONS STYLES */
     .landingPageBtnsDiv {
-        margin-top: 67px;
-        margin-bottom: 44px;
+        margin-top: 147px;
+        margin-bottom: 167px;
+
     }
 
     .landingPageButtons {
@@ -98,8 +115,11 @@ body {
 
     /* SITE NAVIGATION BUTTONS STYLES */
     .siteButtonsDiv {
-        margin-top: 137px;
-        margin-bottom: 37px;
+        position: absolute;
+        top: 637px;
+        left: 47px;
+        /* margin-top: 137px;
+        margin-bottom: 37px; */
         width: 30%;
     }
 
@@ -137,7 +157,7 @@ body {
         border-color: #5ce1e6;
         background-color: lightcyan;
 
-        margin-top: 15px;
+        margin-top: 237px;
         margin-bottom: -5px;
         }
         

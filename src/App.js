@@ -61,7 +61,7 @@ function App() {
         <Route default exact path="/notfound" element={< NotFound />}/>
       </Routes>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
     </Router>
   );

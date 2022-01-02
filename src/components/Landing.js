@@ -1,5 +1,6 @@
 import React from "react";
 import LandingPageBtns from "./LandingPageBtns";
+import Footer from './Footer';
 
 
 class Landing extends React.Component {
@@ -9,6 +10,7 @@ class Landing extends React.Component {
         <LandingPageBtns />       
         {/* <h1 id="landingTitle">landing</h1>
         <h2 id="landingTagline">know what's where and why you need to know</h2> */}
+        <Footer />
         </div>
     ); 
   } 

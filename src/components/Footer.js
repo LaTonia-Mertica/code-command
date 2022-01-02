@@ -21,6 +21,8 @@ class Footer extends React.Component {
         </p>
         <br />
 
+        <div class="borderLineDiv"></div>
+
         <div class="center" id="footer-details">
         <div id="lmdev-logo">
         <a href="https://www.latoniamertica.dev/"

@@ -7,8 +7,8 @@ export default class Nav extends Component {
         return (
             <div className='Nav'>
             <nav>
-                <h1 id="codeCommTitle">code command</h1>
-                <h2 id="codeCommTagline">visualize coding, prepare to code, code</h2>
+            <a href="/"><h1 id="codeCommTitle">code command</h1></a>
+            <a href="/"><h2 id="codeCommTagline">visualize coding, prepare to code, code</h2></a>
 
                 <img src={globe} alt="Globe Icon" class="socialIcons" id="globe"/>
                 <img src={share} alt="Share Icon" class="socialIcons" id="share"/>

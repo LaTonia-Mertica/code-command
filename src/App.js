@@ -5,6 +5,7 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 import Nav from './components/Nav';
+import SiteNavBtns from './components/SiteNavBtns'
 import CodeMind from './components/CodeMind';
 import Coding from './components/Coding';
 import MacBasics from './components/MacBasics';
@@ -25,6 +26,9 @@ function App() {
 
       <Routes>
         <Route path="/nav" component={Nav}>
+        </Route>
+
+        <Route exact path="/sitenavbtns" element={< SiteNavBtns />}>
         </Route>
 
         <Route exact path="/codemind" element={< CodeMind />}>

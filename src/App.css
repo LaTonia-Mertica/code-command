@@ -4,6 +4,10 @@ body {
     border-bottom: 37px solid white;
     }
 
+    a {
+        text-decoration: none;
+        }
+
     /* TITLE STYLES */
     h1#codeCommTitle {
     font-size: 137px;
@@ -30,6 +34,7 @@ body {
     top: 450px;
     }
 
+    /* SOCIAL ICON STYLES IN TITLE */
     .socialIcons {
     width: 44px;
     position: absolute;
@@ -42,6 +47,75 @@ body {
 
     #share {
     left: 91px;
+    }
+
+    /* NOT FOUND PAGE STYLES */
+    .notFoundPgText {
+        font-size: xx-large;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px gray,
+	  	             .5px .5px .15px black;
+
+        text-transform: lowercase;
+        text-align: center;
+        margin-top: 144px;
+        margin-bottom: 144px;
+    }
+
+    .bottomLine {
+        font-size: small;
+        text-align: center;
+        margin-top: -144px;
+        margin-bottom: 144px;
+    }
+
+    .notFoundPgText:hover,
+    .bottomLine:hover {
+        transform: scale(1.25);
+    }
+
+
+    /* LANDING PAGE BUTTONS STYLES */
+    .landingPageBtnsDiv {
+        margin-top: 67px;
+        margin-bottom: 44px;
+    }
+
+    .landingPageButtons {
+        color: darkgray;
+        font-size: x-large;
+        text-transform: uppercase;
+
+        text-align: center;
+        margin-bottom: 13px;
+    }
+
+    .landingPageButtons:hover {
+        color: #5ce1e6;
+        text-shadow: .5px .5px #360836;
+    }
+
+    /* SITE NAVIGATION BUTTONS STYLES */
+    .siteButtonsDiv {
+        margin-top: 137px;
+        margin-bottom: 37px;
+        width: 30%;
+    }
+
+    .siteButtons {
+        color: darkgray;
+        font-size: medium;
+        text-transform: uppercase;
+
+        margin-left: 144px;
+        padding-left: 22px;
+        text-align: center;
+    }
+
+    /* ensure two css lines below function */
+    .siteButtonsDiv:active {
+        color: black;
     }
 
     /* FOOTER STYLES */
@@ -57,7 +131,8 @@ body {
     
     #resumeBtn {
         width: 247px;
-        padding: 9px;
+        padding-top: 3px;
+        padding-bottom: 3px;
         border-radius: 24px;
         border-color: #5ce1e6;
         background-color: lightcyan;
@@ -71,12 +146,19 @@ body {
         }
      */
 
+    .borderLineDiv {
+        border: .25px solid #5ce1e6;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
     #lmdev-logo {
     text-align: center;
     margin-bottom: 15px;
     
-    border-top: 1px solid #5ce1e6;
-    padding-top: 15px;
+    /* border-top: 1px solid #5ce1e6;
+    padding-top: 15px; */
     }
 
     div#lmdev-logo > a > img {

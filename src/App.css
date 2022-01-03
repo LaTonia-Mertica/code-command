@@ -51,115 +51,131 @@ body {
     }
 
     /* NOT FOUND PAGE STYLES */
-    .notFoundPgText {
-        color: red;
-        font-size: xx-large;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-weight: bold;
-        text-shadow: 1px 1px 1px gray,
-	  	             .5px .5px .15px black;
+     /* 404 STYLES */
+     .div404 {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: -13rem;
+    }
 
-        text-transform: lowercase;
-        text-align: center;
-        margin-top: 144px;
-        margin-bottom: 144px;
+    .four04 {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 13rem;
+    }
+
+    .notFoundPgText {
+    color: red;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-shadow: .25px .25px .25px white,
+                    .5px .5px .15px black;
+
+    text-transform: lowercase;
+    text-align: center;
+    margin-top: 144px;
+    margin-bottom: 144px;
     }
 
     .bottomLine {
-        color: white;
-        font-size: small;
-        text-align: center;
-        margin-top: -144px;
-        margin-bottom: 144px;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    margin-top: -144px;
+    margin-bottom: 144px;
     }
 
     .notFoundPgText:hover,
-    .bottomLine:hover {
-        transform: scale(1.25);
+    .bottomLine:hover,
+    .notFoundPgText:focus,
+    .bottomLine:focus {
+    transform: scale(1.25);
     }
 
     .notFoundPageVideo {
-        width: 100%;
-        height: auto;
+    width: 100%;
+    height: auto;
 
-        position: absolute;
-        top: 0;
-        left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 
-        z-index: -13;
+    z-index: -13;
 
-        filter: invert();
+    filter: invert();
     }
-
 
     /* LANDING PAGE BUTTONS STYLES */
     .landingPageBtnsDiv {
-        margin-top: 147px;
-        margin-bottom: 167px;
+    margin-top: 147px;
+    margin-bottom: 167px;
 
     }
 
     .landingPageButtons {
-        color: darkgray;
-        font-size: x-large;
-        text-transform: uppercase;
+    color: darkgray;
+    font-size: x-large;
+    text-transform: uppercase;
 
-        text-align: center;
-        margin-bottom: 13px;
+    text-align: center;
+    margin-bottom: 13px;
     }
 
-    .landingPageButtons:hover {
-        color: #5ce1e6;
-        text-shadow: .5px .5px #360836;
+    .landingPageButtons:hover,
+    .landingPageButtons:focus {
+    color: #5ce1e6;
+    text-shadow: .5px .5px #360836;
     }
 
     /* SITE NAVIGATION BUTTONS STYLES */
     .siteButtonsDiv {
-        position: absolute;
-        top: 637px;
-        left: 47px;
-        /* margin-top: 137px;
-        margin-bottom: 37px; */
-        width: 30%;
+    position: absolute;
+    top: 637px;
+    left: 47px;
+    /* margin-top: 137px;
+    margin-bottom: 37px; */
+    width: 30%;
     }
 
     .siteButtons {
-        color: darkgray;
-        font-size: medium;
-        text-transform: uppercase;
+    color: darkgray;
+    font-size: medium;
+    text-transform: uppercase;
 
-        margin-left: 144px;
-        padding-left: 22px;
-        text-align: center;
+    margin-left: 144px;
+    padding-left: 22px;
+    text-align: center;
     }
 
     /* ensure two css lines below function */
     .siteButtonsDiv:active {
-        color: black;
+    color: black;
     }
 
     /* FOOTER STYLES */
-    a#resumeFile:hover {
-        color: #5ce1e6 !important;
-        }
+    a#resumeFile:hover,  a#resumeFile:focus {
+    color: #5ce1e6 !important;
+    }
         
     #resumeFile {
-        font-size: small;
-        color: #545454 !important;
-        text-decoration: none !important;
-        }
+    font-size: small;
+    color: #545454 !important;
+    text-decoration: none !important;
+    }
     
     #resumeBtn {
-        width: 247px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        border-radius: 24px;
-        border-color: #5ce1e6;
-        background-color: lightcyan;
+    width: 247px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 24px;
+    border-color: #5ce1e6;
+    background-color: lightcyan;
 
-        margin-top: 237px;
-        margin-bottom: -5px;
-        }
+    margin-top: 57px;
+    margin-bottom: -5px;
+    }
         
     /* p#resume > button#resumeBtn > a {
         font-weight: 887px;
@@ -167,18 +183,14 @@ body {
      */
 
     .borderLineDiv {
-        border: .25px solid #5ce1e6;
-        width: 50%;
-        margin: auto;
-        margin-bottom: 20px;
+    border: .25px solid #5ce1e6;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
     }
 
     #lmdev-logo {
     text-align: center;
-    margin-bottom: 15px;
-    
-    /* border-top: 1px solid #5ce1e6;
-    padding-top: 15px; */
     }
 
     div#lmdev-logo > a > img {
@@ -237,6 +249,7 @@ body {
     font-size: small;
     }
     
-    #bizEmail:hover {
+    #bizEmail:hover, 
+    #bizEmail:focus {
     color: #5ce1e6;
     }

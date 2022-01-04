@@ -13,7 +13,7 @@ body {
     font-size: 8.563rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #5ce1e6;
-    text-shadow: .1.563rem .1.563rem black;
+    text-shadow: .073rem .073rem black;
     text-transform: uppercase;
 
     transform: rotate(-90deg);
@@ -26,7 +26,7 @@ body {
     font-size: xx-large;
     font-family: serif;
     color: #c8c4bd;
-    text-shadow: .009rem .009rem black;
+    text-shadow: .027rem .027rem black;
 
     transform: rotate(-90deg);
     position: absolute;
@@ -69,7 +69,7 @@ body {
     font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
-    text-shadow: .1.563rem .1.563rem .1.563rem white,
+    text-shadow: .037rem .037rem .037rem white,
                     .031rem .031rem .009rem black;
 
     text-transform: lowercase;

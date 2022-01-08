@@ -215,6 +215,7 @@ body {
     #trelloBoardScan {
     width: 7.063rem;
     border: .066rem dotted #5ce1e6;
+    margin-top: 3.05rem;
     margin-bottom: 1.375rem;
     }
         
@@ -251,4 +252,33 @@ body {
     #bizEmail:hover, 
     #bizEmail:focus {
     color: #5ce1e6;
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .divSOS {
+            margin-top: -3px;
+        }
+        .firstS,
+        .onlyO,
+        .secondS {
+            font-size: 237px;
+        }
+        h1 {
+            color: red;
+            text-align: center;
+            font-family: fantasy;
+
+            margin-top: 147px;
+            font-size: 187px;
+            text-shadow: 1.15px 1.15px greenyellow;
+            margin-bottom: 327px;
+        }
+        h3.needLarger {
+            color: greenyellow;
+            font-weight: bold;
+            font-size: medium;
+            text-align: center;
+            margin-top: -563px;
+            margin-bottom: 250px;
+        }
     }

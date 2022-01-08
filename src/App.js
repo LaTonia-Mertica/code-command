@@ -15,9 +15,9 @@ import Search from './components/Search';
 import WorkFlow from './components/WorkFlow';
 import Footer from './components/Footer';
 import Landing from './components/Landing';
+import Glitch from './components/videos/Glitch.mp4'
 
 import { useWindowWidth } from "@react-hook/window-size";
-
 
 // path/component format works for nav and footer below while not for the other paths aka routes ... 
 function App() {
@@ -26,8 +26,11 @@ function App() {
   if (width < 1100) {
     return (
       <div className='increaseScreen'>
-        <h1>go bigger</h1>
-        <h2>pretty please</h2>
+        <div className="divSOS div404"><span className="firstS four04 first4">S</span><span className="onlyO four04 only0">O</span><span className="secondS four04 second4">S</span></div>
+       
+        <h1>size seize</h1>
+        <h3 className='needLarger'>need larger screen or device</h3>
+        <video src={Glitch} controls="controls" autoPlay loop muted class="notFoundPageVideo" />
       </div>
     )
   }

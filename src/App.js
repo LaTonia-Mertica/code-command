@@ -16,9 +16,21 @@ import WorkFlow from './components/WorkFlow';
 import Footer from './components/Footer';
 import Landing from './components/Landing';
 
+import { useWindowWidth } from "@react-hook/window-size";
+
 
 // path/component format works for nav and footer below while not for the other paths aka routes ... 
 function App() {
+  const width = useWindowWidth();
+
+  if (width < 1100) {
+    return (
+      <div className='increaseScreen'>
+        <h1>go bigger</h1>
+        <h2>pretty please</h2>
+      </div>
+    )
+  }
   return (
     <Router>
     <div className="App container">    

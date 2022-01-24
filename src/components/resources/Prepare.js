@@ -2,8 +2,15 @@ import React from "react";
 
 const Prepare = () => {
   return (
-    <div>
-      <iframe src="/lessonsContent/prepare.pdf" title="prepare guide" />
+    <div class="aspect-ratio">
+      <iframe
+        src="/lessonsContent/prepare.pdf"
+        frameborder="0"
+        width="550"
+        height="275"
+        allowfullscreen
+        title="prepare guide"
+      />
     </div>
   );
 };

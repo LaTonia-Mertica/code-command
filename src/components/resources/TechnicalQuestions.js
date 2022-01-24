@@ -2,9 +2,13 @@ import React from "react";
 
 const TechnicalQuestions = () => {
   return (
-    <div>
+    <div class="aspect-ratio">
       <iframe
         src="/lessonsContent/techQs.pdf"
+        frameborder="0"
+        width="550"
+        height="275"
+        allowfullscreen
         title="technical questions quide"
       />
     </div>

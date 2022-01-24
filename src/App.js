@@ -19,7 +19,17 @@ import Glitch from "./components/videos/Glitch.mp4";
 
 import { useWindowWidth } from "@react-hook/window-size";
 import ResourceLessons from "./components/resources/ResourceLessons";
+import CurriculumOverview from "./components/resources/CurriculumOverview";
+import AdmireTrying from "./components/resources/AdmireTrying";
+import Balance from "./components/resources/Balance";
+import BasicSiteConsultGuide from "./components/resources/BasicSiteConsultGuide";
+import ContentReadyGuide from "./components/resources/ContentReadyGuide";
+import Cta13 from "./components/resources/Cta13";
+import EverydayMenu from "./components/resources/EverydayMenu";
+import Imagery from "./components/resources/Imagery";
 import Prepare from "./components/resources/Prepare";
+import SelfMotivate from "./components/resources/SelfMotivate";
+import StaticFiles from "./components/resources/StaticFiles";
 import TechnicalQuestions from "./components/resources/TechnicalQuestions";
 
 // path/component format works for nav and footer below while not for the other paths aka routes ...
@@ -68,7 +78,20 @@ function App() {
           <Route exact path="/online" element={<Online />}></Route>
 
           <Route exact path="/resources" element={<Resources />}>
+            <Route path="curriculumOverview" element={<CurriculumOverview />} />
+            <Route path="admireTrying" element={<AdmireTrying />} />
+            <Route path="balance" element={<Balance />} />
+            <Route
+              path="basicSiteConsultGuide"
+              element={<BasicSiteConsultGuide />}
+            />
+            <Route path="contentReadyGuide" element={<ContentReadyGuide />} />
+            <Route path="cta13" element={<Cta13 />} />
+            <Route path="everydayMenu" element={<EverydayMenu />} />
+            <Route path="imagery" element={<Imagery />} />
             <Route path="prepare" element={<Prepare />} />
+            <Route path="selfMotivate" element={<SelfMotivate />} />
+            <Route path="staticFiles" element={<StaticFiles />} />
             <Route path="technicalQuestions" element={<TechnicalQuestions />} />
           </Route>
 
@@ -81,6 +104,7 @@ function App() {
           <Route exact path="/" element={<Landing />}></Route>
 
           <Route default exact path="/notfound" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
 
         {/* <Footer /> */}

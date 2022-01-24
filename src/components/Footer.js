@@ -4,65 +4,67 @@ import lmdotdevlogo from "./images/lmdotdevlogo.png";
 import pptrello from "./images/pptrello.png";
 import LaToniaMerticaResume from "./images/LaToniaMerticaResume.pdf";
 
-
-class Footer extends React.Component {
-    render() {
-    return (
-        <footer class="container-fluid">
-        
-        <p id="resume" class="center">
+const Footer = () => {
+  return (
+    <footer class="container-fluid">
+      <p id="resume" class="center">
         <button id="resumeBtn" title="resume pdf">
-        <a href={LaToniaMerticaResume} id="resumeFile"
-        target="_blank" 
-        rel="noreferrer"
-        >access resume</a
-        >
+          <a
+            href={LaToniaMerticaResume}
+            id="resumeFile"
+            target="_blank"
+            rel="noreferrer"
+          >
+            access resume
+          </a>
         </button>
-        </p>
-        <br />
+      </p>
+      <br />
 
-        <div class="borderLineDiv"></div>
+      <div class="borderLineDiv"></div>
 
-        <div class="center" id="footer-details">
+      <div class="center" id="footer-details">
         <div id="lmdev-logo">
-        <a href="https://www.latoniamertica.dev/"
-        target="_blank"
-        rel="noreferrer">
-        <img
-        class="mx-auto d-block"
-        src={lmdotdevlogo}
-        alt="La'Tonia Mertica dot dev logo"
-        />
-        </a>
+          <a
+            href="https://www.latoniamertica.dev/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              class="mx-auto d-block"
+              src={lmdotdevlogo}
+              alt="La'Tonia Mertica dot dev logo"
+            />
+          </a>
         </div>
-        </div>
-        <br />
-        
-        <div class="center">
-        <a
-        href="https://trello.com/invite/b/Ehbs3lnX/cf3b0ddd0a78b4d8650a2272978424e3/passion-project"
-        target="_blank" 
-        rel="noreferrer"
-        >
-        <img
-        src={pptrello}
-        alt="Trello Passion Project Board Scan Icon"
-        title="TRELLO"
-        target="_blank"
-        rel="noreferrer"
-        id="trelloBoardScan"/>
-        </a>
-        </div>
+      </div>
+      <br />
 
-        <div>
+      <div class="center">
+        <a
+          href="https://trello.com/invite/b/Ehbs3lnX/cf3b0ddd0a78b4d8650a2272978424e3/passion-project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={pptrello}
+            alt="Trello Passion Project Board Scan Icon"
+            title="TRELLO"
+            target="_blank"
+            rel="noreferrer"
+            id="trelloBoardScan"
+          />
+        </a>
+      </div>
+
+      <div>
         <h3 class="center">
-        <span class="notbold">
-        <span id="firstNameInFooter">©La'Tonia Mertica</span><br />
-        <p class="notbold pronunciation">
-        luh tone yuh merr treece
-        </p>
-        
-        {/* <br />
+          <span class="notbold">
+            <span id="firstNameInFooter">©La'Tonia Mertica</span>
+            <br />
+            <p class="notbold pronunciation">luh tone yuh merr treece</p>
+
+            {/* <br />
         Founder & Executive Officer<br />
         PUBLICLY ANONYMOUS, LLC<br />
         ©2019-2022 La'Tonia Mertica 'Comms & Creas
@@ -78,14 +80,11 @@ class Footer extends React.Component {
         rel="noreferrer"
         >designs@latoniamertica.com</a
         > */}
-        </span>
+          </span>
         </h3>
-        </div>
-       </footer>
-    ); 
-  } 
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;
-
-

@@ -1,284 +1,272 @@
+/* STYLES FOR WHOLE WEBSITE */
+
 body {
-    font-family:sans-serif;
-    margin: 0;
-    border-bottom: 2.313rem solid white;
-    }
+  font-family: sans-serif;
+  margin: 0;
+  border-bottom: 2.313rem solid white;
+}
+a {
+  color: darkgray;
+  text-decoration: none;
+}
+a:active,
+a:focus,
+a:hover {
+  color: black;
+}
+li {
+  list-style-type: none;
+  text-transform: lowercase;
 
-    a {
-        text-decoration: none;
-        }
+  position: relative;
+  left: 6rem;
+  top: 35rem;
+}
 
-    /* TITLE STYLES */
-    h1#codeCommTitle {
-    font-size: 8.563rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #5ce1e6;
-    text-shadow: .073rem .073rem black;
-    text-transform: uppercase;
+/* TITLE & TAGLINE STYLES */
+h1#codeCommTitle {
+  font-size: 8.563rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #5ce1e6;
+  text-shadow: 0.073rem 0.073rem black;
+  text-transform: uppercase;
 
-    transform: rotate(-90deg);
-    position: absolute;
-    left: -21.688rem;
-    top: 25rem;
-    }
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -21.688rem;
+  top: 25rem;
+}
+#codeCommTagline {
+  font-size: xx-large;
+  font-family: serif;
+  color: #c8c4bd;
+  text-shadow: 0.027rem 0.027rem black;
 
-    #codeCommTagline {
-    font-size: xx-large;
-    font-family: serif;
-    color: #c8c4bd;
-    text-shadow: .027rem .027rem black;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -4.813rem;
+  top: 29.688rem;
+}
 
-    transform: rotate(-90deg);
-    position: absolute;
-    left: -4.813rem;
-    top: 29.688rem;
-    }
+/* SOCIAL ICON STYLES IN TITLE */
+.socialIcons {
+  width: 2.75rem;
+  position: absolute;
+  top: 57.688rem;
+  padding-bottom: 4.188rem;
+}
+#globe {
+  left: 2.563rem;
+}
+#share {
+  left: 5.688rem;
+}
 
-    /* SOCIAL ICON STYLES IN TITLE */
-    .socialIcons {
-    width: 2.75rem;
-    position: absolute;
-    top: 57.688rem;
-    padding-bottom: 4.188rem;
-    }
+/* NOT FOUND PAGE STYLES */
+/* 404 STYLES */
+.div404 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: -13rem;
+}
+.four04 {
+  color: red;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 13rem;
+}
+.notFoundPgText {
+  color: red;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  text-shadow: 0.037rem 0.037rem 0.037rem white,
+    0.031rem 0.031rem 0.009rem black;
 
-    #globe {
-    left: 2.563rem;
-    }
+  text-transform: lowercase;
+  text-align: center;
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+}
+.bottomLine {
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  text-align: center;
+  margin-top: -9rem;
+  margin-bottom: 9rem;
+}
+.notFoundPgText:hover,
+.bottomLine:hover,
+.notFoundPgText:focus,
+.bottomLine:focus {
+  transform: scale(1.25);
+}
+.notFoundPageVideo {
+  width: 100%;
+  height: auto;
 
-    #share {
-    left: 5.688rem;
-    }
+  position: absolute;
+  top: 0;
+  left: 0;
 
-    /* NOT FOUND PAGE STYLES */
-     /* 404 STYLES */
-     .div404 {
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: -13rem;
-    }
+  z-index: -13;
 
-    .four04 {
-    color: red;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 13rem;
-    }
+  filter: invert();
+}
 
-    .notFoundPgText {
-    color: red;
-    font-size: xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
-    text-shadow: .037rem .037rem .037rem white,
-                    .031rem .031rem .009rem black;
+/* LANDING PAGE BUTTONS STYLES */
+.landingPageBtnsDiv {
+  margin-top: 9.188rem;
+  margin-bottom: 10.438rem;
+}
+.landingPageButtons {
+  color: darkgray;
+  font-size: x-large;
+  text-transform: uppercase;
 
-    text-transform: lowercase;
-    text-align: center;
-    margin-top: 9rem;
-    margin-bottom: 9rem;
-    }
+  text-align: center;
+  margin-bottom: 0.813rem;
+}
+.landingPageButtons:hover,
+.landingPageButtons:focus {
+  color: #5ce1e6;
+  text-shadow: 0.031rem 0.031rem #360836;
+}
 
-    .bottomLine {
-    color: white;
-    font-weight: bold;
-    font-size: small;
-    text-align: center;
-    margin-top: -9rem;
-    margin-bottom: 9rem;
-    }
-
-    .notFoundPgText:hover,
-    .bottomLine:hover,
-    .notFoundPgText:focus,
-    .bottomLine:focus {
-    transform: scale(1.25);
-    }
-
-    .notFoundPageVideo {
-    width: 100%;
-    height: auto;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    z-index: -13;
-
-    filter: invert();
-    }
-
-    /* LANDING PAGE BUTTONS STYLES */
-    .landingPageBtnsDiv {
-    margin-top: 9.188rem;
-    margin-bottom: 10.438rem;
-    }
-
-    .landingPageButtons {
-    color: darkgray;
-    font-size: x-large;
-    text-transform: uppercase;
-
-    text-align: center;
-    margin-bottom: .813rem;
-    }
-
-    .landingPageButtons:hover,
-    .landingPageButtons:focus {
-    color: #5ce1e6;
-    text-shadow: .031rem .031rem #360836;
-    }
-
-    /* SITE NAVIGATION BUTTONS STYLES */
-    .siteButtonsDiv {
-    position: absolute;
-    top: 39.813rem;
-    left: 2.938rem;
-    /* margin-top: 8.563rem;
+/* SITE NAVIGATION BUTTONS STYLES */
+.siteButtonsDiv {
+  position: absolute;
+  top: 39.813rem;
+  left: 2.938rem;
+  /* margin-top: 8.563rem;
     margin-bottom: 2.313rem; */
-    width: 30%;
-    }
+  width: 30%;
+}
+.siteButtons {
+  color: darkgray;
+  font-size: medium;
+  text-transform: uppercase;
 
-    .siteButtons {
-    color: darkgray;
-    font-size: medium;
-    text-transform: uppercase;
+  margin-left: 9rem;
+  padding-left: 1.375rem;
+  text-align: center;
+}
+.siteButtons:hover,
+a:link {
+  color: black;
+}
 
-    margin-left: 9rem;
-    padding-left: 1.375rem;
-    text-align: center;
-    }
+/* FOOTER STYLES */
+a#resumeFile:hover,
+a#resumeFile:focus {
+  color: #5ce1e6 !important;
+}
+#resumeFile {
+  font-size: small;
+  color: #545454 !important;
+  text-decoration: none !important;
+}
+#resumeBtn {
+  width: 15.438rem;
+  padding-top: 0.188rem;
+  padding-bottom: 0.188rem;
+  border-radius: 1.5rem;
+  border-color: #5ce1e6;
+  background-color: lightcyan;
 
-    /* ensure two css lines below function */
-    .siteButtonsDiv:active {
-    color: black;
-    }
-
-    /* FOOTER STYLES */
-    a#resumeFile:hover,  a#resumeFile:focus {
-    color: #5ce1e6 !important;
-    }
-        
-    #resumeFile {
-    font-size: small;
-    color: #545454 !important;
-    text-decoration: none !important;
-    }
-    
-    #resumeBtn {
-    width: 15.438rem;
-    padding-top: .188rem;
-    padding-bottom: .188rem;
-    border-radius: 1.5rem;
-    border-color: #5ce1e6;
-    background-color: lightcyan;
-
-    margin-top: 3.563rem;
-    margin-bottom: -.313rem;
-    }
-        
-    /* p#resume > button#resumeBtn > a {
+  margin-top: 3.563rem;
+  margin-bottom: -0.313rem;
+}
+/* p#resume > button#resumeBtn > a {
         font-weight: 55.438rem;
         }
      */
+.borderLineDiv {
+  border: 0.016rem solid #5ce1e6;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1.25rem;
+}
+#lmdev-logo {
+  text-align: center;
+}
+div#lmdev-logo > a > img {
+  width: 44%;
+}
+h2 {
+  font-size: small;
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+footer > #footer-details {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#trelloBoardScan {
+  width: 7.063rem;
+  border: 0.066rem dotted #5ce1e6;
+  margin-top: 3.05rem;
+  margin-bottom: 1.375rem;
+}
+.notbold {
+  font-weight: normal;
+}
+#firstNameInFooter {
+  color: #5ce1e6;
+  font-weight: bold;
+  font-size: large;
+}
+.notbold {
+  font-size: small;
+}
+h3.center {
+  line-height: 1.063rem;
+}
+.pronunciation {
+  font-style: italic;
+  font-size: x-small;
+  margin-bottom: -0.188rem;
+}
+#bizEmail {
+  color: black;
+  text-decoration: none !important;
+  font-size: small;
+}
+#bizEmail:hover,
+#bizEmail:focus {
+  color: #5ce1e6;
+}
 
-    .borderLineDiv {
-    border: .016rem solid #5ce1e6;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 1.25rem;
-    }
-
-    #lmdev-logo {
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1100px) {
+  .divSOS {
+    margin-top: -3px;
+  }
+  .firstS,
+  .onlyO,
+  .secondS {
+    font-size: 237px;
+  }
+  h1 {
+    color: red;
     text-align: center;
-    }
+    font-family: fantasy;
 
-    div#lmdev-logo > a > img {
-    width: 44%;
-    }
-    
-    h2 {
-    font-size: small;
-    text-align: center;
-    }
-    
-    .center {
-    text-align: center;
-    }
-    
-    footer > #footer-details {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    }
-
-    #trelloBoardScan {
-    width: 7.063rem;
-    border: .066rem dotted #5ce1e6;
-    margin-top: 3.05rem;
-    margin-bottom: 1.375rem;
-    }
-        
-    .notbold {
-    font-weight: normal;
-    }
-    
-    #firstNameInFooter {
-    color: #5ce1e6;
+    margin-top: 147px;
+    font-size: 187px;
+    text-shadow: 1.15px 1.15px greenyellow;
+    margin-bottom: 327px;
+  }
+  h3.needLarger {
+    color: greenyellow;
     font-weight: bold;
-    font-size: large;
-    }
-   
-    .notbold {
-    font-size: small;
-    }
-
-    h3.center {
-    line-height: 1.063rem;
-    }
-
-    .pronunciation {
-    font-style: italic;
-    font-size: x-small;
-    margin-bottom: -.188rem;
-    }
-    
-    #bizEmail {
-    color: black;
-    text-decoration: none !important;
-    font-size: small;
-    }
-    
-    #bizEmail:hover, 
-    #bizEmail:focus {
-    color: #5ce1e6;
-    }
-
-    @media only screen and (max-width: 1100px) {
-        .divSOS {
-            margin-top: -3px;
-        }
-        .firstS,
-        .onlyO,
-        .secondS {
-            font-size: 237px;
-        }
-        h1 {
-            color: red;
-            text-align: center;
-            font-family: fantasy;
-
-            margin-top: 147px;
-            font-size: 187px;
-            text-shadow: 1.15px 1.15px greenyellow;
-            margin-bottom: 327px;
-        }
-        h3.needLarger {
-            color: greenyellow;
-            font-weight: bold;
-            font-size: medium;
-            text-align: center;
-            margin-top: -563px;
-            margin-bottom: 250px;
-        }
-    }
+    font-size: medium;
+    text-align: center;
+    margin-top: -563px;
+    margin-bottom: 250px;
+  }
+}

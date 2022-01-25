@@ -2,7 +2,7 @@ import React from "react";
 
 const CurriculumOverview = () => {
   return (
-    <div class="aspect-ratio">
+    <div className="aspect-ratio">
       <iframe
         src="/lessonsContent/curriculumOverview.pdf"
         frameborder="0"

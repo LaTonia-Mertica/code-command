@@ -2,7 +2,7 @@ import React from "react";
 
 const EverydayMenu = () => {
   return (
-    <div class="aspect-ratio">
+    <div className="aspect-ratio">
       <iframe
         src="/lessonsContent/everydayMenu.pdf"
         frameborder="0"

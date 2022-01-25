@@ -2,7 +2,7 @@ import React from "react";
 
 const StaticFiles = () => {
   return (
-    <div class="aspect-ratio">
+    <div className="aspect-ratio">
       <iframe
         src="/lessonsContent/staticFiles.pdf"
         frameborder="0"

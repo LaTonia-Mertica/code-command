@@ -2,7 +2,7 @@ import React from "react";
 
 const Cta13 = () => {
   return (
-    <div class="aspect-ratio">
+    <div className="aspect-ratio">
       <iframe
         src="/lessonsContent/cta13.pdf"
         frameborder="0"

@@ -11,8 +11,8 @@ const NotFound = () => {
         <span className="four04 second4">4</span>
       </div>
 
-      <h1 class="notFoundPgText">Nothing Here But Code Hopefuls</h1>
-      <p class="bottomLine">
+      <h1 className="notFoundPgText">Nothing Here But Code Hopefuls</h1>
+      <p className="bottomLine">
         click around below for interesting extras or click title to return home
       </p>
 
@@ -22,7 +22,7 @@ const NotFound = () => {
         autoPlay
         loop
         muted
-        class="notFoundPageVideo"
+        className="notFoundPageVideo"
       />
       <Footer />
     </div>

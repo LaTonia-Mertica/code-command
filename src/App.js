@@ -53,7 +53,7 @@ function App() {
           autoPlay
           loop
           muted
-          class="notFoundPageVideo"
+          className="notFoundPageVideo"
         />
         <Footer />
       </div>

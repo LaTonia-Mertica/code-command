@@ -13,8 +13,8 @@ const Nav = () => {
           <h2 id="codeCommTagline">visualize coding, prepare to code, code</h2>
         </a>
 
-        <img src={globe} alt="Globe Icon" class="socialIcons" id="globe" />
-        <img src={share} alt="Share Icon" class="socialIcons" id="share" />
+        <img src={globe} alt="Globe Icon" className="socialIcons" id="globe" />
+        <img src={share} alt="Share Icon" className="socialIcons" id="share" />
       </nav>
     </div>
   );

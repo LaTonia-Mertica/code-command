@@ -2,7 +2,7 @@ import React from "react";
 
 const Prepare = () => {
   return (
-    <div class="aspect-ratio">
+    <div className="aspect-ratio">
       <iframe
         src="/lessonsContent/prepare.pdf"
         frameborder="0"

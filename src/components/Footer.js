@@ -6,8 +6,8 @@ import LaToniaMerticaResume from "./images/LaToniaMerticaResume.pdf";
 
 const Footer = () => {
   return (
-    <footer class="container-fluid">
-      <p id="resume" class="center">
+    <footer className="container-fluid">
+      <p id="resume" className="center">
         <button id="resumeBtn" title="resume pdf">
           <a
             href={LaToniaMerticaResume}
@@ -21,9 +21,9 @@ const Footer = () => {
       </p>
       <br />
 
-      <div class="borderLineDiv"></div>
+      <div className="borderLineDiv"></div>
 
-      <div class="center" id="footer-details">
+      <div className="center" id="footer-details">
         <div id="lmdev-logo">
           <a
             href="https://www.latoniamertica.dev/"
@@ -31,7 +31,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
-              class="mx-auto d-block"
+              className="mx-auto d-block"
               src={lmdotdevlogo}
               alt="La'Tonia Mertica dot dev logo"
             />
@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
       <br />
 
-      <div class="center">
+      <div className="center">
         <a
           href="https://trello.com/invite/b/Ehbs3lnX/cf3b0ddd0a78b4d8650a2272978424e3/passion-project"
           target="_blank"
@@ -58,11 +58,11 @@ const Footer = () => {
       </div>
 
       <div>
-        <h3 class="center">
-          <span class="notbold">
+        <h3 className="center">
+          <span className="notbold">
             <span id="firstNameInFooter">©La'Tonia Mertica</span>
             <br />
-            <p class="notbold pronunciation">luh tone yuh merr treece</p>
+            <p className="notbold pronunciation">luh tone yuh merr treece</p>
 
             {/* <br />
         Founder & Executive Officer<br />

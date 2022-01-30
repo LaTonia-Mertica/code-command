@@ -19,6 +19,11 @@ const ResourceLessons = () => {
         </Link>
       </li>
       <li>
+        <a href="https://amy.dev/?p=783" target="_blank">
+          Coding Interview Style
+        </a>
+      </li>
+      <li>
         <Link to="/resources/contentReadyGuide">Content Ready Guide</Link>
       </li>
       <li>

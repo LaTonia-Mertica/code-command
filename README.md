@@ -1,3 +1,73 @@
+# **CODE COMMAND**
+
+---
+
+##### _visualize coding, prepare to code, code_
+
+<br>
+
+**INTENT**
+<br>
+provide a learning tool for beginning coders who want/need to upskill their basic computer literacy through a series of fluid lessons and vibrant resources<br>
+<br>
+**REINFORCEMENT**
+<br>
+
+- Chelsea Troy | Emergent Works Mentor & Software Engineer<br>
+- Max Matthews | Careers in Code Mentor | Software Engineer<br>
+  <br>
+
+**HOW IT WORKS**
+<br>
+
+- Lessons<br>
+
+  - pick area(s) of focus<br>
+  - click into focus area<br>
+  - click lesson in focus area<br>
+  - take time/energy to learn<br>
+  - visit focus areas as desired<br>
+
+<br>
+
+- Assessments<br>
+
+  - non-graded to encourage learning<br>
+  - non-linear to encourage repetition<br>
+  - designed to offer basic literacy<br>
+
+<br>
+
+- Resources<br>
+
+  - diverse body of hopefully helpful info<br>
+  - not meant to reflect solid standards<br>
+  - meant to reflect possibilities & inspire<br>
+
+<br>
+
+**NEXT STEPS**
+<br>
+
+- build solid lessons in each focus area<br>
+- fine tune overall lesson plan and content<br>
+- polish general layout & design to mobile 1st<br>
+- promote/secure position as learning tool to entities<br>
+  <br>
+
+**RESERVATIONS**
+<br>
+individuals will view and treat this resource with less-than ideal reception - disregarding or minimizing it's contributions to enhanced computer literacy<br>
+<br>
+
+<img src="public/codecommand.png" alt="code command landing page" title="Code Command Landing Page">
+
+---
+
+---
+
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

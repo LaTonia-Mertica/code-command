@@ -4,6 +4,12 @@
 
 ##### _visualize coding, prepare to code, code_
 
+###### [curriculum overview](public/lessonsContent/curriculumOverview.pdf)
+
+###### [prepare guide](public/lessonsContent/prepare.pdf)
+
+###### [technical questions guide](public/lessonsContent/techQs.pdf)
+
 <br>
 
 **INTENT**

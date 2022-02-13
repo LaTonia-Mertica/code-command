@@ -2,15 +2,15 @@ import React from "react";
 
 const SelfMotivate = () => {
   return (
-    <div className="aspect-ratio">
-      <iframe
-        src="/lessonsContent/selfMotivate.pdf"
-        frameborder="0"
-        width="550"
-        height="275"
-        allowfullscreen
-        title="self motivate poster"
-      />
+    <div>
+      <a href="/lessonsContent/selfMotivate.pdf" target="_blank">
+        <img
+          src="/lessonsContent/selfMotivate.png"
+          title="self motivate poster"
+          alt="self motivate"
+          className="resourceImg"
+        />
+      </a>
     </div>
   );
 };

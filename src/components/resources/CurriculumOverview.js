@@ -2,15 +2,16 @@ import React from "react";
 
 const CurriculumOverview = () => {
   return (
-    <div className="aspect-ratio">
-      <iframe
-        src="/lessonsContent/curriculumOverview.pdf"
-        frameborder="0"
-        width="550"
-        height="275"
-        allowfullscreen
-        title="curriculum overview"
-      />
+    <div>
+      <a href="/lessonsContent/curriculumOverview.pdf" target="_blank">
+        <img
+          src="/lessonsContent/curriculumOverview.png"
+          title="curriculum overview"
+          alt="curriculum overview"
+          className="resourceImg"
+          style={{ width: "133.5%", marginTop: "-21rem" }}
+        />
+      </a>
     </div>
   );
 };

@@ -2,15 +2,16 @@ import React from "react";
 
 const Prepare = () => {
   return (
-    <div className="aspect-ratio">
-      <iframe
-        src="/lessonsContent/prepare.pdf"
-        frameborder="0"
-        width="550"
-        height="275"
-        allowfullscreen
-        title="prepare guide"
-      />
+    <div>
+      <a href="/lessonsContent/prepare.pdf" target="_blank">
+        <img
+          src="/lessonsContent/prepare.png"
+          title="prepare guide"
+          alt="prepare"
+          className="resourceImg"
+          style={{ width: "133.5%", marginTop: "-28rem" }}
+        />
+      </a>
     </div>
   );
 };

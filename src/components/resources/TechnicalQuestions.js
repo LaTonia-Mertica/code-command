@@ -2,15 +2,15 @@ import React from "react";
 
 const TechnicalQuestions = () => {
   return (
-    <div className="aspect-ratio">
-      <iframe
-        src="/lessonsContent/techQs.pdf"
-        frameborder="0"
-        width="550"
-        height="275"
-        allowfullscreen
-        title="technical questions quide"
-      />
+    <div>
+      <a href="/lessonsContent/techQs.pdf" target="_blank">
+        <img
+          src="/lessonsContent/techQs.png"
+          title="technical questions quide"
+          alt="technical questions guide"
+          className="resourceImg"
+        />
+      </a>
     </div>
   );
 };

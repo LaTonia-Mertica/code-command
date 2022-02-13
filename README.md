@@ -15,12 +15,18 @@
 **INTENT**
 <br>
 provide a learning tool for beginning coders who want/need to upskill their basic computer literacy through a series of fluid lessons and vibrant resources<br>
+
+###### [visit trello board](https://trello.com/b/Ehbs3lnX/passion-project)
+
+###### [visit github repo](https://github.com/LaTonia-Mertica/code-command)
+
 <br>
+
 **REINFORCEMENT**
 <br>
 
-- Chelsea Troy | Emergent Works Mentor & Software Engineer<br>
-- Max Matthews | Careers in Code Mentor | Software Engineer<br>
+- [Chelsea Troy](https://chelseatroy.com/) | Emergent Works Mentor & Software Engineer<br>
+- [Max Matthews](https://maxmatthe.ws/) | Careers in Code Mentor | Software Engineer<br>
   <br>
 
 **HOW IT WORKS**
@@ -66,15 +72,16 @@ provide a learning tool for beginning coders who want/need to upskill their basi
 individuals will view and treat this resource with less-than ideal reception - disregarding or minimizing it's contributions to enhanced computer literacy<br>
 <br>
 
-<img src="public/codecommand.png" alt="code command landing page" title="Code Command Landing Page">
-
----
-
----
+<img src="public/codecommand.png" alt="code command landing page" title="Code Command Landing Page" style="border-radius: 1.5%">
 
 <br>
 
-# Getting Started with Create React App
+<hr style="color: lightblue">
+<hr style="color: lightblue">
+
+<br>
+
+# CREATE REACT APP
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

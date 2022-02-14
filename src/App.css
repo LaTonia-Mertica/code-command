@@ -3,14 +3,13 @@
 body {
   font-family: sans-serif;
   margin: 0;
-  border-bottom: 2.313rem solid white;
 }
 li {
   list-style-type: none;
   text-transform: lowercase;
 
   position: relative;
-  left: 5rem;
+  left: 7rem;
   top: 15rem;
 }
 
@@ -38,7 +37,6 @@ h1#codeCommTitle {
   left: -4.813rem;
   top: 29.688rem;
 }
-
 /* SOCIAL ICON STYLES IN TITLE */
 .socialIcons {
   width: 2.75rem;
@@ -52,7 +50,18 @@ h1#codeCommTitle {
 #share {
   left: 5.688rem;
 }
+/* PLACEHOLDER VIDEO */
+.placeholderVideo {
+  position: absolute;
+  left: -0.005rem;
+  top: -0.005rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* min-height: 560px; */
 
+  z-index: -1;
+}
 /* LANDING PAGE BUTTONS STYLES */
 .landingPageBtnsDiv {
   margin-top: 9.188rem;
@@ -77,12 +86,12 @@ h1#codeCommTitle {
 .siteButtonsUl {
   position: absolute;
   top: 21rem;
-  left: 4.5rem;
+  left: 3.5rem;
   width: 30%;
   text-shadow: 0.088rem 0.088rem #3c1053ff;
 }
 .siteButtons {
-  color: #c8c4bd;
+  color: burlywood;
   font-size: medium;
   text-transform: uppercase;
 
@@ -90,17 +99,115 @@ h1#codeCommTitle {
   padding-left: 1.375rem;
   text-align: center;
 }
-.resourceListItems {
+.resourceListItems,
+.codeMindListItems {
   margin-left: -8rem;
 }
 a {
-  color: #c8c4bd;
+  color: burlywood;
   text-decoration: none;
+}
+.activeLink {
+  color: #5ce1e6;
+
+  -webkit-animation: color_change 1s infinite alternate;
+  -moz-animation: color_change 1s infinite alternate;
+  -ms-animation: color_change 1s infinite alternate;
+  -o-animation: color_change 1s infinite alternate;
+  animation: color_change 1s infinite alternate;
+}
+
+@-webkit-keyframes color_change {
+  from {
+    color: #5ce1e6;
+  }
+  to {
+    color: crimson;
+  }
+}
+@-moz-keyframes color_change {
+  from {
+    color: #5ce1e6;
+  }
+  to {
+    color: crimson;
+  }
+}
+@-ms-keyframes color_change {
+  from {
+    color: #5ce1e6;
+  }
+  to {
+    color: crimson;
+  }
+}
+@-o-keyframes color_change {
+  from {
+    color: #5ce1e6;
+  }
+  to {
+    color: crimson;
+  }
+}
+@keyframes color_change {
+  from {
+    color: #5ce1e6;
+  }
+  to {
+    color: crimson;
+  }
 }
 a:active,
 a:focus,
 a:hover {
-  color: black;
+  color: #5ce1e6;
+
+  -webkit-animation: color_change 1s infinite alternate;
+  -moz-animation: color_change 1s infinite alternate;
+  -ms-animation: color_change 1s infinite alternate;
+  -o-animation: color_change 1s infinite alternate;
+  animation: color_change 1s infinite alternate;
+}
+
+@-webkit-keyframes color_change {
+  from {
+    color: #5ce1e6;
+  }
+  to {
+    color: crimson;
+  }
+}
+@-moz-keyframes color_change {
+  from {
+    color: #5ce1e6;
+  }
+  to {
+    color: crimson;
+  }
+}
+@-ms-keyframes color_change {
+  from {
+    color: #5ce1e6;
+  }
+  to {
+    color: crimson;
+  }
+}
+@-o-keyframes color_change {
+  from {
+    color: #5ce1e6;
+  }
+  to {
+    color: crimson;
+  }
+}
+@keyframes color_change {
+  from {
+    color: #5ce1e6;
+  }
+  to {
+    color: crimson;
+  }
 }
 .resourceImg {
   object-fit: cover;

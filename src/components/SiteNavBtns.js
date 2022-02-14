@@ -1,41 +1,78 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const SiteNavBtns = () => {
+  const { pathname } = useLocation();
+
   return (
     <ul className="siteButtonsUl">
       <li>
-        <Link to="/macbasics" className="siteButtons">
+        <Link
+          to="/macbasics"
+          className={`siteButtons ${
+            pathname.includes("macbasics") ? "activeLink" : ""
+          }`}
+        >
           mac basics
         </Link>
       </li>
       <li>
-        <Link to="/workflow" className="siteButtons">
+        <Link
+          to="/workflow"
+          className={`siteButtons ${
+            pathname.includes("workflow") ? "activeLink" : ""
+          }`}
+        >
           work flow
         </Link>
       </li>
       <li>
-        <Link to="/online" className="siteButtons">
+        <Link
+          to="/online"
+          className={`siteButtons ${
+            pathname.includes("online") ? "activeLink" : ""
+          }`}
+        >
           online
         </Link>
       </li>
       <li>
-        <Link to="/search" className="siteButtons">
+        <Link
+          to="/search"
+          className={`siteButtons ${
+            pathname.includes("search") ? "activeLink" : ""
+          }`}
+        >
           search
         </Link>
       </li>
       <li>
-        <Link to="/codemind" className="siteButtons">
+        <Link
+          to="/codemind"
+          className={`siteButtons ${
+            pathname.includes("codemind") ? "activeLink" : ""
+          }`}
+        >
           code mind
         </Link>
       </li>
       <li>
-        <Link to="/coding" className="siteButtons">
+        <Link
+          to="/coding"
+          className={`siteButtons ${
+            pathname.includes("coding") ? "activeLink" : ""
+          }`}
+        >
           coding
         </Link>
       </li>
       <li>
-        <Link to="/resources" className="siteButtons">
+        <Link
+          to="/resources"
+          className={`siteButtons ${
+            pathname.includes("resources") ? "activeLink" : ""
+          }`}
+        >
           resources
         </Link>
       </li>

@@ -17,6 +17,9 @@ import Footer from "./components/Footer";
 import Landing from "./components/Landing";
 import Glitch from "./components/videos/Glitch.mp4";
 
+import CodeMindLessons from "./components/codemind/CodeMindLessons";
+import PlaceholderVideo from "./components/codemind/PlaceholderVideo";
+
 import { useWindowWidth } from "@react-hook/window-size";
 import ResourceLessons from "./components/resources/ResourceLessons";
 import CurriculumOverview from "./components/resources/CurriculumOverview";
@@ -69,7 +72,9 @@ function App() {
 
           <Route exact path="/sitenavbtns" element={<SiteNavBtns />}></Route>
 
-          <Route exact path="/codemind" element={<CodeMind />}></Route>
+          <Route exact path="/codemind" element={<CodeMind />}>
+            <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
+          </Route>
 
           <Route exact path="/coding" element={<Coding />}></Route>
 

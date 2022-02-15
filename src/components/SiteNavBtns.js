@@ -6,6 +6,17 @@ const SiteNavBtns = () => {
 
   return (
     <ul className="siteButtonsUl">
+      <li className="curriculumOverviewClass">
+        <a
+          href="/lessonsContent/curriculumOverview.pdf"
+          target="_blank"
+          className={`siteButtons ${
+            pathname.includes("curriculumOverview") ? "activeLink" : ""
+          }`}
+        >
+          curriculum overview
+        </a>
+      </li>
       <li>
         <Link
           to="/macbasics"

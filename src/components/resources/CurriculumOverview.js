@@ -9,7 +9,10 @@ const CurriculumOverview = () => {
           title="curriculum overview"
           alt="curriculum overview"
           className="resourceImg"
-          style={{ width: "133.5%", marginTop: "-21rem" }}
+          style={{
+            width: "133.5%",
+            marginTop: "-21rem",
+          }}
         />
       </a>
     </div>

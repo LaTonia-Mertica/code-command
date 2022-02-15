@@ -8,8 +8,7 @@ const BasicSiteConsultGuide = () => {
           src="/lessonsContent/basicSiteConsultGuide1.png"
           title="basic site consult guide"
           alt="basic site consult"
-          className="resourceImg"
-          // style={{ width: "137%", marginTop: "-20rem" }}
+          className="resourceImg basicSiteConsultGuide"
         />
       </a>
     </div>

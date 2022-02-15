@@ -8,8 +8,7 @@ const Imagery = () => {
           src="/lessonsContent/imagery.png"
           title="imagery poster"
           alt="imagery"
-          className="resourceImg"
-          style={{ width: "135%", marginTop: "-21rem" }}
+          className="resourceImg imagery"
         />
       </a>
     </div>

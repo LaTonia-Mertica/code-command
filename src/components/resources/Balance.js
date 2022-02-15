@@ -8,7 +8,7 @@ const Balance = () => {
           src="/lessonsContent/balance.png"
           title="balance poster"
           alt="balance"
-          className="resourceImg"
+          className="resourceImg balance"
         />
       </a>
     </div>

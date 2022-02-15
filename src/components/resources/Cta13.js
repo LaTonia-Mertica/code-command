@@ -8,8 +8,7 @@ const Cta13 = () => {
           src="/lessonsContent/cta13.png"
           title="cta 13 poster"
           alt="cta 13"
-          className="resourceImg"
-          style={{ width: "133.5%", marginTop: "-21rem" }}
+          className="resourceImg cta13"
         />
       </a>
     </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CodeMindLessons = () => {
   return (
-    <ul>
+    <ul className="lessonFocusAreaUL">
       <li className="codeMindListItems">
         <Link to="/codemind/PlaceholderVideo">Dummy Video</Link>
       </li>

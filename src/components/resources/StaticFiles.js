@@ -1,4 +1,5 @@
 import React from "react";
+import "./resources.css";
 
 const StaticFiles = () => {
   return (
@@ -8,8 +9,7 @@ const StaticFiles = () => {
           src="/lessonsContent/staticFiles1.png"
           title="static files guide"
           alt="static files"
-          className="resourceImg"
-          style={{ width: "133.5%", marginTop: "-28rem" }}
+          className="resourceImg staticFiles"
         />
       </a>
     </div>

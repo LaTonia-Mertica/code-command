@@ -1,5 +1,4 @@
 /* STYLES FOR WHOLE WEBSITE */
-
 body {
   font-family: sans-serif;
   margin: 0;
@@ -50,6 +49,7 @@ h1#codeCommTitle {
 #share {
   left: 5.688rem;
 }
+
 /* PLACEHOLDER VIDEO */
 .placeholderVideo {
   position: absolute;
@@ -58,10 +58,10 @@ h1#codeCommTitle {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  /* min-height: 560px; */
 
   z-index: -1;
 }
+
 /* LANDING PAGE BUTTONS STYLES */
 .landingPageBtnsDiv {
   margin-top: 9.188rem;
@@ -82,10 +82,15 @@ h1#codeCommTitle {
   text-shadow: 0.031rem 0.031rem #360836;
 }
 
+/* STYLES FOR CURRICULUM OVERVIEW IN SITE BTNS */
+.curriculumOverviewClass {
+  margin-bottom: 1rem;
+}
+
 /* SITE NAVIGATION BUTTONS STYLES */
 .siteButtonsUl {
   position: absolute;
-  top: 21rem;
+  top: 19rem;
   left: 3.5rem;
   width: 30%;
   text-shadow: 0.088rem 0.088rem #3c1053ff;
@@ -95,9 +100,13 @@ h1#codeCommTitle {
   font-size: medium;
   text-transform: uppercase;
 
-  /* margin-left: 3rem; */
   padding-left: 1.375rem;
   text-align: center;
+}
+.lessonFocusAreaUL {
+  position: absolute;
+  left: 13.5rem;
+  padding-left: 1.375rem;
 }
 .resourceListItems,
 .codeMindListItems {
@@ -122,7 +131,7 @@ a {
     color: #5ce1e6;
   }
   to {
-    color: crimson;
+    color: #c8c4bd;
   }
 }
 @-moz-keyframes color_change {
@@ -130,7 +139,7 @@ a {
     color: #5ce1e6;
   }
   to {
-    color: crimson;
+    color: #c8c4bd;
   }
 }
 @-ms-keyframes color_change {
@@ -138,7 +147,7 @@ a {
     color: #5ce1e6;
   }
   to {
-    color: crimson;
+    color: #c8c4bd;
   }
 }
 @-o-keyframes color_change {
@@ -146,7 +155,7 @@ a {
     color: #5ce1e6;
   }
   to {
-    color: crimson;
+    color: #c8c4bd;
   }
 }
 @keyframes color_change {
@@ -154,7 +163,7 @@ a {
     color: #5ce1e6;
   }
   to {
-    color: crimson;
+    color: #c8c4bd;
   }
 }
 a:active,
@@ -174,7 +183,7 @@ a:hover {
     color: #5ce1e6;
   }
   to {
-    color: crimson;
+    color: #c8c4bd;
   }
 }
 @-moz-keyframes color_change {
@@ -182,7 +191,7 @@ a:hover {
     color: #5ce1e6;
   }
   to {
-    color: crimson;
+    color: #c8c4bd;
   }
 }
 @-ms-keyframes color_change {
@@ -190,7 +199,7 @@ a:hover {
     color: #5ce1e6;
   }
   to {
-    color: crimson;
+    color: #c8c4bd;
   }
 }
 @-o-keyframes color_change {
@@ -198,7 +207,7 @@ a:hover {
     color: #5ce1e6;
   }
   to {
-    color: crimson;
+    color: #c8c4bd;
   }
 }
 @keyframes color_change {
@@ -206,14 +215,8 @@ a:hover {
     color: #5ce1e6;
   }
   to {
-    color: crimson;
+    color: #c8c4bd;
   }
-}
-.resourceImg {
-  object-fit: cover;
-  object-position: center;
-  margin-left: -13.5rem;
-  margin-top: -22rem;
 }
 
 /* FOOTER STYLES */
@@ -239,7 +242,7 @@ a#resumeFile:focus {
 }
 .borderLineDiv {
   border: 0.016rem solid #5ce1e6;
-  width: 50%;
+  width: 44rem;
   margin: auto;
   margin-bottom: 1.25rem;
 }
@@ -247,7 +250,7 @@ a#resumeFile:focus {
   text-align: center;
 }
 div#lmdev-logo > a > img {
-  width: 44%;
+  width: 37rem;
 }
 h2 {
   font-size: small;
@@ -265,7 +268,7 @@ footer > #footer-details {
 #trelloBoardScan {
   width: 7.063rem;
   border: 0.066rem dotted #5ce1e6;
-  margin-top: 3.05rem;
+  margin-top: 0.25rem;
   margin-bottom: 1.375rem;
 }
 .notbold {

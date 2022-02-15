@@ -3,6 +3,7 @@ import NotFound from "./components/NotFound";
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useWindowWidth } from "@react-hook/window-size";
 
 import Nav from "./components/Nav";
 import SiteNavBtns from "./components/SiteNavBtns";
@@ -18,9 +19,13 @@ import Landing from "./components/Landing";
 import Glitch from "./components/videos/Glitch.mp4";
 
 import CodeMindLessons from "./components/codemind/CodeMindLessons";
+import CodingLessons from "./components/coding/CodingLessons";
+import MacBasicsLessons from "./components/macbasics/MacBasics";
+import OnlineLessons from "./components/online/OnlineLessons";
+import SearchLessons from "./components/search/Search";
+import WorkFlowLessons from "./components/workflow/WorkFlow";
 import PlaceholderVideo from "./components/codemind/PlaceholderVideo";
 
-import { useWindowWidth } from "@react-hook/window-size";
 import ResourceLessons from "./components/resources/ResourceLessons";
 import CurriculumOverview from "./components/resources/CurriculumOverview";
 import AdmireTrying from "./components/resources/AdmireTrying";
@@ -76,11 +81,20 @@ function App() {
             <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
           </Route>
 
-          <Route exact path="/coding" element={<Coding />}></Route>
+          <Route exact path="/coding" element={<Coding />}>
+            {" "}
+            <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
+          </Route>
 
-          <Route exact path="/macbasics" element={<MacBasics />}></Route>
+          <Route exact path="/macbasics" element={<MacBasics />}>
+            {" "}
+            <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
+          </Route>
 
-          <Route exact path="/online" element={<Online />}></Route>
+          <Route exact path="/online" element={<Online />}>
+            {" "}
+            <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
+          </Route>
 
           <Route exact path="/resources" element={<Resources />}>
             <Route path="curriculumOverview" element={<CurriculumOverview />} />
@@ -100,9 +114,15 @@ function App() {
             <Route path="technicalQuestions" element={<TechnicalQuestions />} />
           </Route>
 
-          <Route exact path="/search" element={<Search />}></Route>
+          <Route exact path="/search" element={<Search />}>
+            {" "}
+            <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
+          </Route>
 
-          <Route exact path="/workflow" element={<WorkFlow />}></Route>
+          <Route exact path="/workflow" element={<WorkFlow />}>
+            {" "}
+            <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
+          </Route>
 
           <Route path="/footer" element={Footer}></Route>
 

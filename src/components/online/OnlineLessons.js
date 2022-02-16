@@ -7,6 +7,12 @@ const OnlineLessons = () => {
       <li className="onlineListItems">
         <Link to="/online/PlaceholderVideo">Dummy Video</Link>
       </li>
+      <li className="onlineListItems">
+        <Link to="/online/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="onlineListItems">
+        <Link to="/online/PlaceholderVideo">Dummy Video</Link>
+      </li>
     </ul>
   );
 };

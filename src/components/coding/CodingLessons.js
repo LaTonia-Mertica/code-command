@@ -7,6 +7,18 @@ const CodingLessons = () => {
       <li className="codingListItems">
         <Link to="/coding/PlaceholderVideo">Dummy Video</Link>
       </li>
+      <li className="codingListItems">
+        <Link to="/coding/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="codingListItems">
+        <Link to="/coding/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="codingListItems">
+        <Link to="/coding/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="codingListItems">
+        <Link to="/coding/PlaceholderVideo">Dummy Video</Link>
+      </li>
     </ul>
   );
 };

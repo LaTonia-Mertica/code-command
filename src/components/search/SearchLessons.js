@@ -7,6 +7,12 @@ const SearchLessons = () => {
       <li className="searchListItems">
         <Link to="/search/PlaceholderVideo">Dummy Video</Link>
       </li>
+      <li className="searchListItems">
+        <Link to="/search/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="searchListItems">
+        <Link to="/search/PlaceholderVideo">Dummy Video</Link>
+      </li>
     </ul>
   );
 };

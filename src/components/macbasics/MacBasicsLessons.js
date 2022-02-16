@@ -7,6 +7,18 @@ const MacBasicsLessons = () => {
       <li className="macBasicsListItems">
         <Link to="/macBasics/PlaceholderVideo">Dummy Video</Link>
       </li>
+      <li className="macBasicsListItems">
+        <Link to="/macBasics/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="macBasicsListItems">
+        <Link to="/macBasics/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="macBasicsListItems">
+        <Link to="/macBasics/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="macBasicsListItems">
+        <Link to="/macBasics/PlaceholderVideo">Dummy Video</Link>
+      </li>
     </ul>
   );
 };

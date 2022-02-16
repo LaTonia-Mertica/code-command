@@ -7,6 +7,18 @@ const CodeMindLessons = () => {
       <li className="codeMindListItems">
         <Link to="/codemind/PlaceholderVideo">Dummy Video</Link>
       </li>
+      <li className="codeMindListItems">
+        <Link to="/codemind/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="codeMindListItems">
+        <Link to="/codemind/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="codeMindListItems">
+        <Link to="/codemind/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="codeMindListItems">
+        <Link to="/codemind/PlaceholderVideo">Dummy Video</Link>
+      </li>
     </ul>
   );
 };

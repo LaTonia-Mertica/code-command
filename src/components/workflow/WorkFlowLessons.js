@@ -7,6 +7,15 @@ const WorkFlowLessons = () => {
       <li className="workFlowListItems">
         <Link to="/workFlow/PlaceholderVideo">Dummy Video</Link>
       </li>
+      <li className="workFlowListItems">
+        <Link to="/workFlow/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="workFlowListItems">
+        <Link to="/workFlow/PlaceholderVideo">Dummy Video</Link>
+      </li>
+      <li className="workFlowListItems">
+        <Link to="/workFlow/PlaceholderVideo">Dummy Video</Link>
+      </li>
     </ul>
   );
 };

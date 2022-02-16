@@ -21,7 +21,7 @@ const SiteNavBtns = () => {
         <Link
           to="/macbasics"
           className={`siteButtons ${
-            pathname.includes("macbasics") ? "activeLink" : ""
+            pathname.includes("macBasics") ? "activeLink" : ""
           }`}
         >
           mac basics
@@ -31,7 +31,7 @@ const SiteNavBtns = () => {
         <Link
           to="/workflow"
           className={`siteButtons ${
-            pathname.includes("workflow") ? "activeLink" : ""
+            pathname.includes("workFlow") ? "activeLink" : ""
           }`}
         >
           work flow

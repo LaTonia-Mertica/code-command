@@ -82,17 +82,14 @@ function App() {
           </Route>
 
           <Route exact path="/coding" element={<Coding />}>
-            {" "}
             <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
           </Route>
 
           <Route exact path="/macbasics" element={<MacBasics />}>
-            {" "}
             <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
           </Route>
 
           <Route exact path="/online" element={<Online />}>
-            {" "}
             <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
           </Route>
 
@@ -115,12 +112,10 @@ function App() {
           </Route>
 
           <Route exact path="/search" element={<Search />}>
-            {" "}
             <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
           </Route>
 
           <Route exact path="/workflow" element={<WorkFlow />}>
-            {" "}
             <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
           </Route>
 

@@ -108,6 +108,14 @@ h1#codeCommTitle {
   left: 13.5rem;
   padding-left: 1.375rem;
 }
+.codeMindListItems,
+.codingListItems,
+.macBasicsListItems,
+.onlineListItems,
+.searchListItems,
+.workFlowListItems {
+  top: 31.5rem;
+}
 
 .codeMindListItems,
 .codingListItems,

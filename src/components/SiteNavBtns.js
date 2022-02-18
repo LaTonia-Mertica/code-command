@@ -17,6 +17,16 @@ const SiteNavBtns = () => {
           curriculum overview
         </a>
       </li>
+      <li className="selfAssessment">
+        <Link
+          to="/selfassessment"
+          className={`siteButtons ${
+            pathname.includes("selfAssessment") ? "activeLink" : ""
+          }`}
+        >
+          self assessment
+        </Link>
+      </li>
       <li>
         <Link
           to="/macbasics"

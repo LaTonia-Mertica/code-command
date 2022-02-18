@@ -28,6 +28,7 @@ import PlaceholderVideo from "./components/codemind/PlaceholderVideo";
 
 import ResourceLessons from "./components/resources/ResourceLessons";
 import CurriculumOverview from "./components/resources/CurriculumOverview";
+import SelfAssessment from "./components/SelfAssessment";
 import AdmireTrying from "./components/resources/AdmireTrying";
 import Balance from "./components/resources/Balance";
 import BasicSiteConsultGuide from "./components/resources/BasicSiteConsultGuide";
@@ -76,6 +77,12 @@ function App() {
           <Route path="/nav" component={Nav}></Route>
 
           <Route exact path="/sitenavbtns" element={<SiteNavBtns />}></Route>
+
+          <Route
+            exact
+            path="/SelfAssessment"
+            element={<SelfAssessment />}
+          ></Route>
 
           <Route exact path="/codemind" element={<CodeMind />}>
             <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />

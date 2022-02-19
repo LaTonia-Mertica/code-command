@@ -4,7 +4,7 @@ import share from "./images/share.png";
 
 const Nav = () => {
   return (
-    <div className="Nav">
+    <div className="Nav codingNav">
       <nav>
         <a href="/">
           <h1 id="codeCommTitle">code command</h1>

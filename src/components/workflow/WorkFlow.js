@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import SiteNavBtns from "../SiteNavBtns";
 import WorkFlowLessons from "./WorkFlowLessons";
+import "./workFlowStyles.css";
 
 const WorkFlow = () => {
   return (

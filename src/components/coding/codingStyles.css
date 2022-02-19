@@ -1,0 +1,10 @@
+.jsForLoop {
+  position: absolute;
+  left: 13rem;
+  top: 0.025rem;
+  height: 100%;
+  width: 90%;
+  object-fit: fill;
+
+  z-index: -1;
+}

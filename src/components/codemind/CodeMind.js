@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import SiteNavBtns from "../SiteNavBtns";
 import CodeMindLessons from "./CodeMindLessons";
+import "./codeMindStyles.css";
 
 const CodeMind = () => {
   return (

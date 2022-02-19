@@ -1,5 +1,5 @@
 import React from "react";
-import "./resources.css";
+import "./resourcesStyles.css";
 
 const StaticFiles = () => {
   return (

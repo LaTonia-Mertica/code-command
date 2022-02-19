@@ -36,6 +36,7 @@ h1#codeCommTitle {
   left: -4.813rem;
   top: 29.688rem;
 }
+
 /* SOCIAL ICON STYLES IN TITLE */
 .socialIcons {
   width: 2.75rem;
@@ -49,16 +50,8 @@ h1#codeCommTitle {
 #share {
   left: 5.688rem;
 }
-/* SELF ASSESSMENT PAGE UNDER CONSTRUCTION STYLES */
-/* .selfAssessmentH1 {
-  color: yellow;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 11rem;
 
-  position: absolute;
-  top: 21rem;
-  left: 39%;
-} */
+/* SELF ASSESSMENT PAGE UNDER CONSTRUCTION STYLES */
 .selfAssessmentH2 {
   color: crimson;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -87,6 +80,7 @@ h1#codeCommTitle {
     transform: scale(0.95);
   }
 }
+
 /* UNDER CONSTRUCTION VIDEO */
 .underConstructionVideo {
   position: absolute;
@@ -96,8 +90,9 @@ h1#codeCommTitle {
   width: 100%;
   object-fit: cover;
 
-  z-index: -1;
+  z-index: -3;
 }
+
 /* PLACEHOLDER VIDEO */
 .placeholderVideo {
   position: absolute;
@@ -176,7 +171,6 @@ h1#codeCommTitle {
 .workFlowListItems {
   top: 27rem;
 }
-
 .codeMindListItems,
 .codingListItems,
 .macBasicsListItems,

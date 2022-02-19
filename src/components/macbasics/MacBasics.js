@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import SiteNavBtns from "../SiteNavBtns";
 import MacBasicsLessons from "./MacBasicsLessons";
+import "./macBasicsStyles.css";
 
 const MacBasics = () => {
   return (

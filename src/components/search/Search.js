@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import SiteNavBtns from "../SiteNavBtns";
 import SearchLessons from "./SearchLessons";
+import "./searchStyles.css";
 
 const Search = () => {
   return (

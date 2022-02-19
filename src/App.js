@@ -19,7 +19,10 @@ import Landing from "./components/Landing";
 import Glitch from "./components/videos/Glitch.mp4";
 
 import CodeMindLessons from "./components/codemind/CodeMindLessons";
+
 import CodingLessons from "./components/coding/CodingLessons";
+import JsForLoop from "./components/coding/JsForLoop";
+
 import MacBasicsLessons from "./components/macbasics/MacBasics";
 import OnlineLessons from "./components/online/OnlineLessons";
 import SearchLessons from "./components/search/Search";
@@ -93,7 +96,7 @@ function App() {
           </Route>
 
           <Route exact path="/coding" element={<Coding />}>
-            <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
+            <Route path="JsForLoop" element={<JsForLoop />} />
             <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
             <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
             <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />

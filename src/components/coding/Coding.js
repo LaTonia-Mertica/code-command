@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import SiteNavBtns from "../SiteNavBtns";
 import CodingLessons from "./CodingLessons";
+import "./codingStyles.css";
 
 const Coding = () => {
   return (

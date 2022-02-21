@@ -6,7 +6,7 @@ import "./codingStyles.css";
 
 const Coding = () => {
   return (
-    <div className="Coding">
+    <div className="coding">
       <SiteNavBtns />
       <CodingLessons />
 

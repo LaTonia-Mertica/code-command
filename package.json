@@ -1,6 +1,6 @@
 {
   "name": "code-command",
-  "homepage": "https://latoniamertica.dev/code-command/",
+  "homepage": "https://www.latoniamertica.dev/code-command/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,8 +16,8 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
-    "predeploy": "PUBLIC_URL=https://latoniamertica.dev/code-command/ npm run build",
-    "deploy": "PUBLIC_URL=https://latoniamertica.dev/code-command/ gh-pages -d build",
+    "predeploy": "PUBLIC_URL=https://wwww.latoniamertica.dev/code-command/ npm run build",
+    "deploy": "PUBLIC_URL=https://www.latoniamertica.dev/code-command/ gh-pages -d build",
     "start": "PUBLIC_URL=http://localhost:3000/ react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

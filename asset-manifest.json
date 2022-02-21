@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/code-command/static/css/main.213192bd.css",
+    "main.js": "/code-command/static/js/main.8706cc62.js",
+    "static/js/787.d7e8da20.chunk.js": "/code-command/static/js/787.d7e8da20.chunk.js",
+    "static/media/scapeSpan.mp4": "/code-command/static/media/scapeSpan.dd8d795bd0e399575d6f.mp4",
+    "static/media/Glitch.mp4": "/code-command/static/media/Glitch.dd5d91c2404f1c79bced.mp4",
+    "static/media/underConstruction.mp4": "/code-command/static/media/underConstruction.debdee1d955d2c4e5c5e.mp4",
+    "static/media/globe.png": "/code-command/static/media/globe.fa4ae5a27b2787a60484.png",
+    "static/media/LaToniaMerticaResume.pdf": "/code-command/static/media/LaToniaMerticaResume.d4469068406d62247711.pdf",
+    "static/media/share.png": "/code-command/static/media/share.5364a8561907cac75381.png",
+    "static/media/lmdotdevlogo.png": "/code-command/static/media/lmdotdevlogo.2699b64159908544be8c.png",
+    "index.html": "/code-command/index.html",
+    "main.213192bd.css.map": "/code-command/static/css/main.213192bd.css.map",
+    "main.8706cc62.js.map": "/code-command/static/js/main.8706cc62.js.map",
+    "787.d7e8da20.chunk.js.map": "/code-command/static/js/787.d7e8da20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.213192bd.css",
+    "static/js/main.8706cc62.js"
+  ]
+}

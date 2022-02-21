@@ -1,30 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const LandingPageBtns = () => {
   return (
     <div className="LandingPageBtns">
       <div className="landingPageBtnsDiv">
-        <a href="/macbasics">
+        <Link to="/macbasics">
           <h1 className="landingPageButtons">mac basics</h1>
-        </a>
-        <a href="/workflow">
+        </Link>
+        <Link to="/workflow">
           <h1 className="landingPageButtons">work flow</h1>
-        </a>
-        <a href="/online">
+        </Link>
+        <Link to="/online">
           <h1 className="landingPageButtons">online</h1>
-        </a>
-        <a href="/search">
+        </Link>
+        <Link to="/search">
           <h1 className="landingPageButtons">search</h1>
-        </a>
-        <a href="/codemind">
+        </Link>
+        <Link to="/codemind">
           <h1 className="landingPageButtons">code mind</h1>
-        </a>
-        <a href="/coding">
+        </Link>
+        <Link to="/coding">
           <h1 className="landingPageButtons">coding</h1>
-        </a>
-        <a href="/resources">
+        </Link>
+        <Link to="/resources">
           <h1 className="landingPageButtons">resources</h1>
-        </a>
+        </Link>
       </div>
     </div>
   );

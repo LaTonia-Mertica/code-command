@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
-    "predeploy": "PUBLIC_URL=https://wwww.latoniamertica.dev/code-command/ npm run build",
+    "predeploy": "PUBLIC_URL=https://www.latoniamertica.dev/code-command/ npm run build",
     "deploy": "PUBLIC_URL=https://www.latoniamertica.dev/code-command/ gh-pages -d build",
     "start": "PUBLIC_URL=http://localhost:3000/ react-scripts start",
     "build": "react-scripts build",

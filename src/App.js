@@ -71,8 +71,10 @@ function App() {
       </div>
     );
   }
+  const basename = document.querySelector("base")?.getAttribute("href") ?? "/";
+
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="App container">
         <Nav />
 

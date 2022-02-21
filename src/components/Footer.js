@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="center" id="footer-details">
         <div id="lmdev-logo">
           <a
-            href="https://www.latoniamertica.dev/"
+            href="https://latoniamertica.dev/"
             target="_blank"
             rel="noreferrer"
           >

@@ -3,10 +3,15 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+// import { Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
+const basename = document.querySelector("base")?.getAttribute("href") ?? "/";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router basename={basename}>
+      <App />
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );

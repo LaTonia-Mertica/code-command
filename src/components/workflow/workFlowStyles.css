@@ -1,0 +1,9 @@
+.workFlowListItemsUl {
+  margin-top: 5rem;
+}
+img.resourceImg.workFlowPlaceholderImg {
+  position: absolute;
+  margin-top: -0.5rem;
+  object-fit: cover;
+  z-index: -1;
+}

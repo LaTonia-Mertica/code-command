@@ -7,19 +7,18 @@ const SiteNavBtns = () => {
   return (
     <ul className="siteButtonsUl">
       <li className="curriculumOverviewClass">
-        <a
-          href="/lessonsContent/curriculumOverview.pdf"
-          target="_blank"
+        <Link
+          to="/curriculumOverview-noNav"
           className={`siteButtons ${
             pathname.includes("curriculumOverview") ? "activeLink" : ""
           }`}
         >
           curriculum overview
-        </a>
+        </Link>
       </li>
       <li className="selfAssessment">
         <Link
-          to="/selfassessment"
+          to="/selfassessment-noNav"
           className={`siteButtons ${
             pathname.includes("selfAssessment") ? "activeLink" : ""
           }`}

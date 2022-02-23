@@ -1,10 +1,19 @@
 .jsForLoop {
   position: absolute;
-  left: 13rem;
+  left: 0.025rem;
   top: 0.025rem;
   height: 100%;
-  width: 90%;
+  width: 100%;
   object-fit: fill;
 
+  z-index: -1;
+}
+.codingListItemsUl {
+  margin-top: 5rem;
+}
+img.resourceImg.codingPlaceholderImg {
+  position: absolute;
+  margin-top: -0.5rem;
+  object-fit: cover;
   z-index: -1;
 }

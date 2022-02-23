@@ -3,7 +3,12 @@ import { Link } from "react-router-dom";
 
 const WorkFlowLessons = () => {
   return (
-    <ul className="lessonFocusAreaUL">
+    <ul className="lessonFocusAreaUL workFlowListItemsUl">
+      <li className="workFlowListItems">
+        <Link to="/workFlow/WorkFlowResourcePlaceholder-noNav">
+          placeholder resource
+        </Link>
+      </li>
       <li className="workFlowListItems">
         <Link to="/workFlow/PlaceholderVideo">Dummy Video</Link>
       </li>

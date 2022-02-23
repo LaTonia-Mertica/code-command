@@ -3,15 +3,15 @@ import React from "react";
 const Prepare = () => {
   return (
     <div>
-      {/* <a href="/lessonsContent/prepare.pdf" target="_blank">
+      <a href="/lessonsContent/prepare.pdf" target="_blank">
         <img
           src="/lessonsContent/prepare.png"
           title="prepare guide"
           alt="prepare"
           className="resourceImg"
-          style={{ width: "133.5%", marginTop: "-28rem" }}
+          style={{ width: "133.5%", marginTop: "-.25rem" }}
         />
-      </a> */}
+      </a>
     </div>
   );
 };

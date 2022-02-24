@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import SiteNavBtns from "./SiteNavBtns";
+import { Link } from "react-router-dom";
 import underConstruction from "../components/videos/underConstruction.mp4";
 
 const SelfAssessment = () => {
@@ -9,6 +10,15 @@ const SelfAssessment = () => {
       <SiteNavBtns />
       {/* <h1 className="selfAssessmentH1">assessment</h1> */}
       <h2 className="selfAssessmentH2">crafting</h2>
+      <Link to="/">
+        <img
+          src="arrowBack.png"
+          title="arrow back home"
+          alt="arrow"
+          className="resourceImg arrow arrow arrowStyle2"
+        />
+      </Link>
+
       <video
         src={underConstruction}
         controls="controls"

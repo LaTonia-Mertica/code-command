@@ -51,6 +51,34 @@ h1#codeCommTitle {
   left: 5.688rem;
 }
 
+/* ARROW BACK HOME STYLES */
+.arrow {
+  width: 7rem;
+  position: absolute;
+  top: 79.5rem;
+  left: 27rem;
+
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.95);
+  }
+}
+.arrowStyle2 {
+  filter: invert();
+}
+
 /* SELF ASSESSMENT PAGE UNDER CONSTRUCTION STYLES */
 .selfAssessmentH2 {
   color: crimson;

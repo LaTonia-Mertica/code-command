@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "https://www.latoniamertica.dev/code-command/static/css/main.47a1841e.css",
-    "main.js": "https://www.latoniamertica.dev/code-command/static/js/main.0d4d897e.js",
-    "static/js/787.d7e8da20.chunk.js": "https://www.latoniamertica.dev/code-command/static/js/787.d7e8da20.chunk.js",
-    "static/media/scapeSpan.mp4": "https://www.latoniamertica.dev/code-command/static/media/scapeSpan.dd8d795bd0e399575d6f.mp4",
-    "static/media/Glitch.mp4": "https://www.latoniamertica.dev/code-command/static/media/Glitch.dd5d91c2404f1c79bced.mp4",
-    "static/media/underConstruction.mp4": "https://www.latoniamertica.dev/code-command/static/media/underConstruction.debdee1d955d2c4e5c5e.mp4",
-    "static/media/globe.png": "https://www.latoniamertica.dev/code-command/static/media/globe.fa4ae5a27b2787a60484.png",
-    "static/media/LaToniaMerticaResume.pdf": "https://www.latoniamertica.dev/code-command/static/media/LaToniaMerticaResume.d4469068406d62247711.pdf",
-    "static/media/share.png": "https://www.latoniamertica.dev/code-command/static/media/share.5364a8561907cac75381.png",
-    "static/media/lmdotdevlogo.png": "https://www.latoniamertica.dev/code-command/static/media/lmdotdevlogo.2699b64159908544be8c.png",
-    "index.html": "https://www.latoniamertica.dev/code-command/index.html",
-    "main.47a1841e.css.map": "https://www.latoniamertica.dev/code-command/static/css/main.47a1841e.css.map",
-    "main.0d4d897e.js.map": "https://www.latoniamertica.dev/code-command/static/js/main.0d4d897e.js.map",
-    "787.d7e8da20.chunk.js.map": "https://www.latoniamertica.dev/code-command/static/js/787.d7e8da20.chunk.js.map"
+    "main.css": "https://latoniamertica.dev/code-command/static/css/main.47a1841e.css",
+    "main.js": "https://latoniamertica.dev/code-command/static/js/main.b912feb9.js",
+    "static/js/787.d7e8da20.chunk.js": "https://latoniamertica.dev/code-command/static/js/787.d7e8da20.chunk.js",
+    "static/media/scapeSpan.mp4": "https://latoniamertica.dev/code-command/static/media/scapeSpan.dd8d795bd0e399575d6f.mp4",
+    "static/media/Glitch.mp4": "https://latoniamertica.dev/code-command/static/media/Glitch.dd5d91c2404f1c79bced.mp4",
+    "static/media/underConstruction.mp4": "https://latoniamertica.dev/code-command/static/media/underConstruction.debdee1d955d2c4e5c5e.mp4",
+    "static/media/globe.png": "https://latoniamertica.dev/code-command/static/media/globe.fa4ae5a27b2787a60484.png",
+    "static/media/LaToniaMerticaResume.pdf": "https://latoniamertica.dev/code-command/static/media/LaToniaMerticaResume.d4469068406d62247711.pdf",
+    "static/media/share.png": "https://latoniamertica.dev/code-command/static/media/share.5364a8561907cac75381.png",
+    "static/media/lmdotdevlogo.png": "https://latoniamertica.dev/code-command/static/media/lmdotdevlogo.2699b64159908544be8c.png",
+    "index.html": "https://latoniamertica.dev/code-command/index.html",
+    "main.47a1841e.css.map": "https://latoniamertica.dev/code-command/static/css/main.47a1841e.css.map",
+    "main.b912feb9.js.map": "https://latoniamertica.dev/code-command/static/js/main.b912feb9.js.map",
+    "787.d7e8da20.chunk.js.map": "https://latoniamertica.dev/code-command/static/js/787.d7e8da20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47a1841e.css",
-    "static/js/main.0d4d897e.js"
+    "static/js/main.b912feb9.js"
   ]
 }

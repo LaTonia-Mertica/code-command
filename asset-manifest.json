@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://www.latoniamertica.dev/code-command/static/css/main.47a1841e.css",
-    "main.js": "https://www.latoniamertica.dev/code-command/static/js/main.5ad85e92.js",
+    "main.js": "https://www.latoniamertica.dev/code-command/static/js/main.31c20f10.js",
     "static/js/787.d7e8da20.chunk.js": "https://www.latoniamertica.dev/code-command/static/js/787.d7e8da20.chunk.js",
     "static/media/scapeSpan.mp4": "https://www.latoniamertica.dev/code-command/static/media/scapeSpan.dd8d795bd0e399575d6f.mp4",
     "static/media/Glitch.mp4": "https://www.latoniamertica.dev/code-command/static/media/Glitch.dd5d91c2404f1c79bced.mp4",
@@ -12,11 +12,11 @@
     "static/media/lmdotdevlogo.png": "https://www.latoniamertica.dev/code-command/static/media/lmdotdevlogo.2699b64159908544be8c.png",
     "index.html": "https://www.latoniamertica.dev/code-command/index.html",
     "main.47a1841e.css.map": "https://www.latoniamertica.dev/code-command/static/css/main.47a1841e.css.map",
-    "main.5ad85e92.js.map": "https://www.latoniamertica.dev/code-command/static/js/main.5ad85e92.js.map",
+    "main.31c20f10.js.map": "https://www.latoniamertica.dev/code-command/static/js/main.31c20f10.js.map",
     "787.d7e8da20.chunk.js.map": "https://www.latoniamertica.dev/code-command/static/js/787.d7e8da20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47a1841e.css",
-    "static/js/main.5ad85e92.js"
+    "static/js/main.31c20f10.js"
   ]
 }

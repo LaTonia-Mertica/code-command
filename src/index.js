@@ -5,13 +5,16 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // import { Router } from "react-router-dom";
 import { HashRouter as Router } from "react-router-dom";
-const basename = document.querySelector("base")?.getAttribute("href") ?? "/";
+const basename =
+  document.querySelector("base")?.getAttribute("href") ?? "/code-command/";
+// const basename =
+//  "/";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={basename}>
+    <HashRouter basename={basename}>
       <App />
-    </Router>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );

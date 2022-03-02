@@ -12,9 +12,9 @@ const basename =
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename={basename}>
+    <Router basename={basename}>
       <App />
-    </HashRouter>
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );

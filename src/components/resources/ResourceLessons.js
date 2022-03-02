@@ -8,6 +8,15 @@ const ResourceLessons = () => {
     <ul className="lessonFocusAreaUL">
       <li
         className={`resourceListItems ${
+          pathname.includes("selfAssessmentChecklist") ? "activeLink" : ""
+        }`}
+      >
+        <Link to="/resources/selfAssessmentChecklist-noNav">
+          self assessment checklist
+        </Link>
+      </li>
+      <li
+        className={`resourceListItems ${
           pathname.includes("admireTrying") ? "activeLink" : ""
         }`}
       >

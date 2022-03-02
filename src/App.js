@@ -44,9 +44,11 @@ import SearchResourcePlaceholder from "./components/search/SearchResourcePlaceHo
 import WorkFlowLessons from "./components/workflow/WorkFlow";
 import WorkFlowResourcePlaceholder from "./components/workflow/WorkFlowResourcePlaceholder";
 
-import ResourceLessons from "./components/resources/ResourceLessons";
 import CurriculumOverview from "./components/CurriculumOverview";
 import SelfAssessment from "./components/SelfAssessment";
+
+import ResourceLessons from "./components/resources/ResourceLessons";
+import SelfAssessmentChecklist from "./components/resources/SelfAssessmentChecklist";
 import AdmireTrying from "./components/resources/AdmireTrying";
 import Balance from "./components/resources/Balance";
 import BasicSiteConsultGuide from "./components/resources/BasicSiteConsultGuide";
@@ -164,6 +166,10 @@ function App() {
         </Route>
 
         <Route exact path="/resources" element={<Resources />}>
+          <Route
+            path="selfAssessmentChecklist-noNav"
+            element={<SelfAssessmentChecklist />}
+          />
           <Route path="admireTrying-noNav" element={<AdmireTrying />} />
           <Route path="balance-noNav" element={<Balance />} />
           <Route

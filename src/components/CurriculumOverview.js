@@ -16,7 +16,7 @@ const CurriculumOverview = () => {
       </Link>
       <a href="/lessonsContent/curriculumOverview.pdf" target="_blank">
         <img
-          src="/lessonsContent/curriculumOverview.png"
+          src={`${process.env.PUBLIC_URL}/lessonsContent/curriculumOverview.png`}
           title="curriculum overview"
           alt="curriculum overview"
           className="resourceImg"

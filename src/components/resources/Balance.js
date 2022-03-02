@@ -5,7 +5,7 @@ const Balance = () => {
     <div>
       <a href="/lessonsContent/balance.pdf" target="_blank">
         <img
-          src="/lessonsContent/balance.png"
+          src={`${process.env.PUBLIC_URL}/lessonsContent/balance.png`}
           title="balance poster"
           alt="balance"
           className="resourceImg balance"

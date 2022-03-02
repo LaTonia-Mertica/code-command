@@ -4,7 +4,7 @@ const JsForLoop = () => {
   return (
     <div>
       <video
-        src={"/lessonsContent/jsForLoop.mp4"}
+        src={`${process.env.PUBLIC_URL}/lessonsContent/jsForLoop.mp4`}
         controls="controls"
         autoPlay
         loop

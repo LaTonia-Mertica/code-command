@@ -6,7 +6,7 @@ const StaticFiles = () => {
     <div>
       <a href="/lessonsContent/staticFiles.pdf" target="_blank">
         <img
-          src="/lessonsContent/staticFiles1.png"
+          src={`${process.env.PUBLIC_URL}/lessonsContent/staticFiles1.png`}
           title="static files guide"
           alt="static files"
           className="resourceImg staticFiles"

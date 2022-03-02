@@ -5,7 +5,7 @@ const EverydayMenu = () => {
     <div>
       <a href="/lessonsContent/everydayMenu.pdf" target="_blank">
         <img
-          src="/lessonsContent/everydayMenu1.png"
+          src={`${process.env.PUBLIC_URL}/lessonsContent/everydayMenu1.png`}
           title="everyday menu poster"
           alt="everyday menu"
           className="resourceImg everydayMenu"

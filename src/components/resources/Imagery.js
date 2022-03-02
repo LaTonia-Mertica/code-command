@@ -5,7 +5,7 @@ const Imagery = () => {
     <div>
       <a href="/lessonsContent/imagery.pdf" target="_blank">
         <img
-          src="/lessonsContent/imagery.png"
+          src={`${process.env.PUBLIC_URL}/lessonsContent/imagery.png`}
           title="imagery poster"
           alt="imagery"
           className="resourceImg imagery"

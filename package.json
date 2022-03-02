@@ -1,8 +1,8 @@
 {
   "name": "code-command",
-  "homepage": "https://latoniamertica.dev/code-command/",
+  "homepage": "https://www.latoniamertica.dev/code-command/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@react-hook/window-size": "^3.0.7",
     "@testing-library/jest-dom": "^5.16.1",
@@ -16,9 +16,9 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
-    "predeploy": "PUBLIC_URL=https://latoniamertica.dev/code-command/ npm run build",
-    "deploy": "PUBLIC_URL=https://latoniamertica.dev/code-command/ gh-pages -d build",
-    "start": "PUBLIC_URL=http://localhost:3000/code-command react-scripts start",
+    "predeploy": "PUBLIC_URL=https://www.latoniamertica.dev/code-command/ npm run build",
+    "deploy": "PUBLIC_URL=https://www.latoniamertica.dev/code-command/ gh-pages -d build",
+    "start": "PUBLIC_URL=./ react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -8,7 +8,7 @@ const MacBasicsResourcePlaceHolder = () => {
         target="_blank"
       >
         <img
-          src="/lessonsContent/macBasicsResourcePlaceHolder.png"
+          src={`${process.env.PUBLIC_URL}/lessonsContent/macBasicsResourcePlaceholder.png`}
           title="mac basics resource placeholder poster"
           alt="mac basics resource"
           className="resourceImg macBasicsPlaceholderImg"

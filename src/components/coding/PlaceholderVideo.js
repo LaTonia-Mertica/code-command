@@ -4,7 +4,7 @@ const PlaceholderVideo = () => {
   return (
     <div>
       <video
-        src={"/lessonsContent/PlaceholderVideo.mp4"}
+        src={`${process.env.PUBLIC_URL}/lessonsContent/PlaceholderVideo.mp4`}
         controls="controls"
         autoPlay
         loop

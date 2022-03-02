@@ -5,7 +5,7 @@ const TechnicalQuestions = () => {
     <div>
       <a href="/lessonsContent/techQs.pdf" target="_blank">
         <img
-          src="/lessonsContent/techQs.png"
+          src={`${process.env.PUBLIC_URL}/lessonsContent/techQs.png`}
           title="technical questions quide"
           alt="technical questions guide"
           className="resourceImg"

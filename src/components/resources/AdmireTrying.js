@@ -5,7 +5,7 @@ const AdmireTrying = () => {
     <div>
       <a href="/lessonsContent/admireTrying.pdf" target="_blank">
         <img
-          src="/lessonsContent/admireTrying.png"
+          src={`${process.env.PUBLIC_URL}/lessonsContent/admireTrying.png`}
           title="admire trying poster"
           alt="admire trying"
           className="resourceImg"

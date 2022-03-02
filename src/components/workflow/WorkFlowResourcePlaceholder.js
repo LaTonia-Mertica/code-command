@@ -5,7 +5,7 @@ const WorkFlowResourcePlaceholder = () => {
     <div>
       <a href="/lessonsContent/WorkFlowResourcePlaceholder.pdf" target="_blank">
         <img
-          src="/lessonsContent/WorkFlowResourcePlaceholder.png"
+          src={`${process.env.PUBLIC_URL}/lessonsContent/WorkFlowResourcePlaceholder.png`}
           title="work flow resource placeholder poster"
           alt="work flow resource"
           className="resourceImg workFlowPlaceholderImg"

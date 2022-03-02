@@ -5,7 +5,7 @@ const CodeMindResourcePlaceHolder = () => {
     <div>
       <a href="/lessonsContent/codeMindResourcePlaceHolder.pdf" target="_blank">
         <img
-          src="/lessonsContent/codeMindResourcePlaceHolder.png"
+          src={`${process.env.PUBLIC_URL}/lessonsContent/codeMindResourcePlaceholder.png`}
           title="code mind resource placeholder poster"
           alt="code mind resource"
           className="resourceImg codeMindPlaceholderImg"

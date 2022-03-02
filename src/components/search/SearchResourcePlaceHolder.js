@@ -5,7 +5,7 @@ const SearchResourcePlaceHolder = () => {
     <div>
       <a href="/lessonsContent/searchResourcePlaceHolder.pdf" target="_blank">
         <img
-          src="/lessonsContent/searchResourcePlaceHolder.png"
+          src={`${process.env.PUBLIC_URL}/lessonsContent/searchResourcePlaceHolder.png`}
           title="search resource placeholder poster"
           alt="search resource"
           className="resourceImg searchPlaceholderImg"

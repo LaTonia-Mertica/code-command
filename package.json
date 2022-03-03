@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "PUBLIC_URL=https://www.latoniamertica.dev/code-command/ npm run build",
-    "deploy": "PUBLIC_URL=https://www.latoniamertica.dev/code-command/ gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "PUBLIC_URL=./ react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

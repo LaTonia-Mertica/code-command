@@ -17,6 +17,7 @@ const CurriculumOverview = () => {
       <a
         href={`${process.env.PUBLIC_URL}/lessonsContent/curriculumOverview.pdf`}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/curriculumOverview.png`}

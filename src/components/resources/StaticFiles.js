@@ -7,6 +7,7 @@ const StaticFiles = () => {
       <a
         href={`${process.env.PUBLIC_URL}/lessonsContent/staticFiles.pdf`}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/staticFiles1.png`}

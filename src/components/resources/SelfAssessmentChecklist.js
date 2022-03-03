@@ -7,6 +7,7 @@ const SelfAssessmentChecklist = () => {
       <a
         href={`${process.env.PUBLIC_URL}/lessonsContent/selfAssessmentChecklist.pdf`}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/selfAssessmentChecklist1.png`}

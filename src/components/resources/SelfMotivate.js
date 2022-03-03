@@ -6,6 +6,7 @@ const SelfMotivate = () => {
       <a
         href={`${process.env.PUBLIC_URL}/lessonsContent/selfMotivate.pdf`}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/selfMotivate.png`}

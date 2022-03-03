@@ -6,6 +6,7 @@ const Imagery = () => {
       <a
         href={`${process.env.PUBLIC_URL}/lessonsContent/imagery.pdf`}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/imagery.png`}

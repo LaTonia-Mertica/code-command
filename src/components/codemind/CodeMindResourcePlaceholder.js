@@ -6,6 +6,7 @@ const CodeMindResourcePlaceHolder = () => {
       <a
         href={`${process.env.PUBLIC_URL}/lessonsContent/codeMindResourcePlaceHolder.pdf`}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/codeMindResourcePlaceholder.png`}

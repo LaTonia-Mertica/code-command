@@ -6,6 +6,7 @@ const OnlineResourcePlaceHolder = () => {
       <a
         href={`${process.env.PUBLIC_URL}/lessonsContent/onlineResourcePlaceHolder.pdf`}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/onlineResourcePlaceholder.png`}

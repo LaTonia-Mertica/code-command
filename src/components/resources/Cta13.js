@@ -6,6 +6,7 @@ const Cta13 = () => {
       <a
         href={`${process.env.PUBLIC_URL}/lessonsContent/cta13.pdf`}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/cta13.png`}

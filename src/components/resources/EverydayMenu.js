@@ -6,6 +6,7 @@ const EverydayMenu = () => {
       <a
         href={`${process.env.PUBLIC_URL}/lessonsContent/everydayMenu.pdf`}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/everydayMenu1.png`}

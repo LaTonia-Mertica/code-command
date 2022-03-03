@@ -3,7 +3,10 @@ import React from "react";
 const Imagery = () => {
   return (
     <div>
-      <a href="/lessonsContent/imagery.pdf" target="_blank">
+      <a
+        href={`${process.env.PUBLIC_URL}/lessonsContent/imagery.pdf`}
+        target="_blank"
+      >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/imagery.png`}
           title="imagery poster"

@@ -3,7 +3,10 @@ import React from "react";
 const Prepare = () => {
   return (
     <div>
-      <a href="/lessonsContent/prepare.pdf" target="_blank">
+      <a
+        href={`${process.env.PUBLIC_URL}/lessonsContent/prepare.pdf`}
+        target="_blank"
+      >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/prepare.png`}
           title="prepare guide"

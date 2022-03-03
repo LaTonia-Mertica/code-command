@@ -3,7 +3,10 @@ import React from "react";
 const TechnicalQuestions = () => {
   return (
     <div>
-      <a href="/lessonsContent/techQs.pdf" target="_blank">
+      <a
+        href={`${process.env.PUBLIC_URL}/lessonsContent/techQs.pdf`}
+        target="_blank"
+      >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/techQs.png`}
           title="technical questions quide"

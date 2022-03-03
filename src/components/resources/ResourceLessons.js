@@ -12,7 +12,7 @@ const ResourceLessons = () => {
         }`}
       >
         <Link to="/resources/selfAssessmentChecklist-noNav">
-          self assessment checklisttt
+          self assessment checklist
         </Link>
       </li>
       <li

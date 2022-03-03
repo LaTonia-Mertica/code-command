@@ -4,7 +4,7 @@ const MacBasicsResourcePlaceHolder = () => {
   return (
     <div>
       <a
-        href="/lessonsContent/macBasicsResourcePlaceHolder.pdf"
+        href={`${process.env.PUBLIC_URL}/lessonsContent/macBasicsResourcePlaceHolder.pdf`}
         target="_blank"
       >
         <img

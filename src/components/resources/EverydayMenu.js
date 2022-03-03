@@ -3,7 +3,10 @@ import React from "react";
 const EverydayMenu = () => {
   return (
     <div>
-      <a href="/lessonsContent/everydayMenu.pdf" target="_blank">
+      <a
+        href={`${process.env.PUBLIC_URL}/lessonsContent/everydayMenu.pdf`}
+        target="_blank"
+      >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/everydayMenu1.png`}
           title="everyday menu poster"

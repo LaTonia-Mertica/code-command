@@ -3,7 +3,10 @@ import React from "react";
 const ContentReadyGuide = () => {
   return (
     <div>
-      <a href="/lessonsContent/contentReadyGuide.pdf" target="_blank">
+      <a
+        href={`${process.env.PUBLIC_URL}/lessonsContent/contentReadyGuide.pdf`}
+        target="_blank"
+      >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/contentReadyGuide.png`}
           title="content ready guide"

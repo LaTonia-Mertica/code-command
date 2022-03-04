@@ -33,6 +33,13 @@ import JsForLoop from "./components/coding/JsForLoop";
 import CodingResourcePlaceholder from "./components/coding/CodingResourcePlaceholder";
 
 import MacBasicsLessons from "./components/macbasics/MacBasics";
+import AboutMac from "./components/macbasics/AboutMac";
+import CustomizeMac from "./components/macbasics/CustomizeMac";
+import CustomizeMacViaRightClick from "./components/macbasics/CustomizeMacViaRightClick";
+import OpenTextEdit from "./components/macbasics/OpenTextEdit";
+import FileFolderDelete from "./components/macbasics/FileFolderDelete";
+import SaveFolderInDocs from "./components/macbasics/SaveFolderInDocs";
+import AddAppToDock from "./components/macbasics/AddAppToDock";
 import MacBasicsResourcePlaceHolder from "./components/macbasics/MacBasicsResourcePlaceHolder";
 
 import OnlineLessons from "./components/online/OnlineLessons";
@@ -144,15 +151,21 @@ function App() {
         </Route>
 
         <Route exact path="/macbasics" element={<MacBasics />}>
+          <Route path="AboutMac-noNav" element={<AboutMac />} />
           <Route
             path="MacBasicsResourcePlaceHolder-noNav"
             element={<MacBasicsResourcePlaceHolder />}
           />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
+          <Route path="AboutMac-noNav" element={<AboutMac />} />
+          <Route path="CustomizeMac-noNav" element={<CustomizeMac />} />
+          <Route
+            path="CustomizeMacViaRightClick-noNav"
+            element={<CustomizeMacViaRightClick />}
+          />
+          <Route path="OpenTextEdit-noNav" element={<OpenTextEdit />} />
+          <Route path="FileFolderDelete-noNav" element={<FileFolderDelete />} />
+          <Route path="SaveFolderInDocs-noNav" element={<SaveFolderInDocs />} />
+          <Route path="AddAppToDock-noNav" element={<AddAppToDock />} />
         </Route>
 
         <Route exact path="/online" element={<Online />}>

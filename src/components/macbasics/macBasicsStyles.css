@@ -1,9 +1,19 @@
 .macBasicsListItemsUl {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 img.resourceImg.macBasicsPlaceholderImg {
   position: absolute;
   margin-top: -0.5rem;
   object-fit: cover;
+  z-index: -1;
+}
+video {
+  position: absolute;
+  left: 0.025rem;
+  top: 0.025rem;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+
   z-index: -1;
 }

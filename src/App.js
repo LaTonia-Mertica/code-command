@@ -33,6 +33,7 @@ import JsForLoop from "./components/coding/JsForLoop";
 import CodingResourcePlaceholder from "./components/coding/CodingResourcePlaceholder";
 
 import MacBasicsLessons from "./components/macbasics/MacBasics";
+import MacBasicsResourcePlaceHolder from "./components/macbasics/MacBasicsResourcePlaceHolder";
 import AboutMac from "./components/macbasics/AboutMac";
 import CustomizeMac from "./components/macbasics/CustomizeMac";
 import CustomizeMacViaRightClick from "./components/macbasics/CustomizeMacViaRightClick";
@@ -40,7 +41,6 @@ import OpenTextEdit from "./components/macbasics/OpenTextEdit";
 import FileFolderDelete from "./components/macbasics/FileFolderDelete";
 import SaveFolderInDocs from "./components/macbasics/SaveFolderInDocs";
 import AddAppToDock from "./components/macbasics/AddAppToDock";
-import MacBasicsResourcePlaceHolder from "./components/macbasics/MacBasicsResourcePlaceHolder";
 
 import OnlineLessons from "./components/online/OnlineLessons";
 import OnlineResourcePlaceholder from "./components/online/OnlineResourcePlaceholder";
@@ -106,6 +106,7 @@ function App() {
       {/* conditional render part 2 */}
       {/* {render && <Nav />} */}
       {!location.pathname.includes("noNav") && <Nav />}
+      {!location.pathname.includes("noSiteNavBtns") && <SiteNavBtns />}
 
       <Routes>
         {/* route method to displaying nav content */}

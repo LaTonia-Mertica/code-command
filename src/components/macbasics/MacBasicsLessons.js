@@ -6,7 +6,7 @@ const MacBasicsLessons = () => {
     <ul className="lessonFocusAreaUL macBasicsListItemsUl">
       <li className="macBasicsListItems">
         <Link to="/macBasics/MacBasicsResourcePlaceholder-noNav">
-          mac basics resource placeholder
+          resource placeholder
         </Link>
       </li>
       <li className="macBasicsListItems">

@@ -6,7 +6,7 @@ const CodeMindLessons = () => {
     <ul className="lessonFocusAreaUL codeMindListItemsUl">
       <li className="codeMindListItems">
         <Link to="/codemind/CodeMindResourcePlaceholder-noNav">
-          placeholder resource
+          resource placeholder
         </Link>
       </li>
       <li className="codeMindListItems">

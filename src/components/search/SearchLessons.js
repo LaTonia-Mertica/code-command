@@ -6,7 +6,7 @@ const SearchLessons = () => {
     <ul className="lessonFocusAreaUL searchListItemsUl">
       <li className="searchListItems">
         <Link to="/search/SearchResourcePlaceholder-noNav">
-          placeholder resource
+          resource placeholder
         </Link>
       </li>
       <li className="searchListItems">

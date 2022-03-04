@@ -6,11 +6,11 @@ const CodingLessons = () => {
     <ul className="lessonFocusAreaUL codingListItemsUl">
       <li className="codingListItems">
         <Link to="/coding/CodingResourcePlaceholder-noNav">
-          placeholder resource
+          resource placeholder
         </Link>
       </li>
       <li className="codingListItems">
-        <Link to="/coding/JsForLoop-noNav">Javascript Loops</Link>
+        <Link to="/coding/JsForLoop-noNav">Javascript For Loop</Link>
       </li>
       <li className="codingListItems">
         <Link to="/coding/PlaceholderVideo">Dummy Video</Link>

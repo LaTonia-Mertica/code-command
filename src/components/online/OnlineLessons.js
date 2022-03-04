@@ -6,7 +6,7 @@ const OnlineLessons = () => {
     <ul className="lessonFocusAreaUL onlineListItemsUl">
       <li className="onlineListItems">
         <Link to="/online/OnlineResourcePlaceholder-noNav">
-          placeholder resource
+          resource placeholder
         </Link>
       </li>
       <li className="onlineListItems">

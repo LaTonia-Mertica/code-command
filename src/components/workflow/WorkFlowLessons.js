@@ -6,7 +6,7 @@ const WorkFlowLessons = () => {
     <ul className="lessonFocusAreaUL workFlowListItemsUl">
       <li className="workFlowListItems">
         <Link to="/workFlow/WorkFlowResourcePlaceholder-noNav">
-          placeholder resource
+          resource placeholder
         </Link>
       </li>
       <li className="workFlowListItems">

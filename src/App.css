@@ -57,7 +57,9 @@ h1#codeCommTitle {
 }
 .para {
   margin-top: 1.5rem;
-  margin-left: 23rem;
+  margin-left: 21rem;
+
+  text-align: justify;
 }
 .codeCommandText {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -333,7 +335,7 @@ a:hover {
 /* LA'TONIA MERTICA IMAGE STYLES */
 .latoniaMertica {
   width: 113rem;
-  margin-left: -21.5rem;
+  margin-left: -16rem;
   margin-top: -0.5rem;
   margin-bottom: -147rem;
 }

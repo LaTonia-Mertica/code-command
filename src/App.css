@@ -51,11 +51,20 @@ h1#codeCommTitle {
   left: 5.688rem;
 }
 
+/* CODE COMMAND VISION STYLES */
+.codeCommandVisionDiv {
+  margin-top: 3rem;
+}
+.para {
+  margin-top: 1.5rem;
+  margin-left: 23rem;
+}
+
 /* ARROW BACK HOME STYLES */
 .arrow {
   height: 4.25rem;
   position: absolute;
-  top: 57rem;
+  top: 47rem;
   left: 27rem;
 
   transform: scale(1);
@@ -74,9 +83,6 @@ h1#codeCommTitle {
   100% {
     transform: scale(0.95);
   }
-}
-.arrowStyle2 {
-  filter: invert();
 }
 
 /* SELF ASSESSMENT PAGE UNDER CONSTRUCTION STYLES */
@@ -158,11 +164,6 @@ h1#codeCommTitle {
   margin-bottom: 1rem;
 }
 
-/* STYLES FOR CURRICULUM OVERVIEW IN SITE BTNS */
-.curriculumOverviewClass {
-  margin-bottom: 1rem;
-}
-
 /* STYLES FOR SELF ASSESSMENT IN SITE BTNS */
 .selfAssessment {
   margin-bottom: 1rem;
@@ -171,7 +172,7 @@ h1#codeCommTitle {
 /* SITE NAVIGATION BUTTONS STYLES */
 .siteButtonsUl {
   position: absolute;
-  top: 25.5rem;
+  top: 15.5rem;
   left: 3.5rem;
   width: 30%;
   text-shadow: 0.088rem 0.088rem #3c1053ff;
@@ -184,26 +185,31 @@ h1#codeCommTitle {
   padding-left: 1.375rem;
   text-align: center;
 }
+/* STYLES FOR SUB LINKS */
+/* LOCATED OVER SITE BTNS */
+/* NEXT TO TITLE/TAGLINE */
 .lessonFocusAreaUL {
   position: absolute;
   left: 13.5rem;
   padding-left: 1.375rem;
-  margin-top: 5rem;
+  margin-top: 11rem;
+}
+.macBasicsListItems {
+  top: 25rem;
 }
 .codeMindListItems,
-.codingListItems,
-.macBasicsListItems,
-.onlineListItems,
-.searchListItems,
-.workFlowListItems {
-  top: 25.5rem;
+.codingListItems {
+  top: 15.5rem;
 }
 .onlineListItems,
 .searchListItems {
-  top: 28.25rem;
+  top: 18.5rem;
 }
 .workFlowListItems {
-  top: 27rem;
+  top: 17rem;
+}
+.resourceListItems {
+  top: 5rem;
 }
 .codeMindListItems,
 .codingListItems,
@@ -321,38 +327,22 @@ a:hover {
   }
 }
 
-/* FOOTER STYLES */
-a#resumeFile:hover,
-a#resumeFile:focus {
-  color: #5ce1e6 !important;
+/* LA'TONIA MERTICA IMAGE STYLES */
+.latoniaMertica {
+  width: 113rem;
+  margin-left: -16rem;
+  margin-top: -25.8rem;
+  margin-bottom: -147rem;
 }
-#resumeFile {
-  font-size: small;
-  color: #545454 !important;
-  text-decoration: none !important;
-}
-#resumeBtn {
-  width: 15.438rem;
-  padding-top: 0.188rem;
-  padding-bottom: 0.188rem;
-  border-radius: 1.5rem;
-  border-color: #5ce1e6;
-  background-color: lightcyan;
 
-  margin-top: 44rem;
-  margin-bottom: -0.313rem;
-}
-.borderLineDiv {
-  border: 0.016rem solid #5ce1e6;
-  width: 44rem;
-  margin: auto;
-  margin-bottom: 1rem;
-}
+/* FOOTER STYLES */
+/* FOOTER ONLY IN CODE COMMAND VISION PAGE */
 #lmdev-logo {
   text-align: center;
 }
 div#lmdev-logo > a > img {
   width: 37rem;
+  margin-top: -1.5rem;
 }
 h2 {
   font-size: small;
@@ -388,18 +378,10 @@ h3.center {
   line-height: 1.063rem;
 }
 .pronunciation {
+  color: white;
   font-style: italic;
   font-size: x-small;
   margin-bottom: -0.188rem;
-}
-#bizEmail {
-  color: black;
-  text-decoration: none !important;
-  font-size: small;
-}
-#bizEmail:hover,
-#bizEmail:focus {
-  color: #5ce1e6;
 }
 
 /* NOT FOUND PAGE STYLES */

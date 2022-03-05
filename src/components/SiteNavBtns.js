@@ -16,16 +16,6 @@ const SiteNavBtns = () => {
           code command vision
         </Link>
       </li>
-      <li className="curriculumOverviewClass">
-        <Link
-          to="/curriculumOverview-noNav"
-          className={`siteButtons ${
-            pathname.includes("curriculumOverview") ? "activeLink" : ""
-          }`}
-        >
-          curriculum overview
-        </Link>
-      </li>
       <li className="selfAssessment">
         <Link
           to="/selfassessment-noNav"

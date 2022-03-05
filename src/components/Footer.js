@@ -7,22 +7,6 @@ import LaToniaMerticaResume from "./images/LaToniaMerticaResume.pdf";
 const Footer = () => {
   return (
     <footer className="container-fluid">
-      <p id="resume" className="center">
-        <button id="resumeBtn" title="resume pdf">
-          <a
-            href={LaToniaMerticaResume}
-            id="resumeFile"
-            target="_blank"
-            rel="noreferrer"
-          >
-            access resume
-          </a>
-        </button>
-      </p>
-      <br />
-
-      <div className="borderLineDiv"></div>
-
       <div className="center" id="footer-details">
         <div id="lmdev-logo">
           <a

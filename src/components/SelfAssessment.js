@@ -13,9 +13,9 @@ const SelfAssessment = () => {
       <Link to="/">
         <img
           src="arrowBack.png"
-          title="back home"
+          title="visit landing page"
           alt="arrow"
-          className="resourceImg arrow arrowStyle2"
+          className="resourceImg arrow"
         />
       </Link>
 

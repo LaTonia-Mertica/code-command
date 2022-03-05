@@ -5,13 +5,12 @@ import { Link } from "react-router-dom";
 const CurriculumOverview = () => {
   return (
     <div>
-      <SiteNavBtns />
       <Link to="/">
         <img
           src="arrowBack.png"
-          title="back home"
+          title="visit landing page"
           alt="arrow"
-          className="resourceImg arrow arrowStyle1"
+          className="resourceImg arrow"
         />{" "}
       </Link>
       <a

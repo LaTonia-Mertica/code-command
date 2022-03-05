@@ -43,7 +43,7 @@ const ResourceLessons = () => {
           Coding Interview Style
         </a>
       </li>
-      <li
+      {/* <li
         className={`resourceListItems ${
           pathname.includes("contentReadyGuide") ? "activeLink" : ""
         }`}
@@ -52,7 +52,7 @@ const ResourceLessons = () => {
           {" "}
           Content Ready Guide
         </Link>
-      </li>
+      </li> */}
       <li
         className={`resourceListItems ${
           pathname.includes("cta13") ? "activeLink" : ""
@@ -74,20 +74,20 @@ const ResourceLessons = () => {
       >
         <Link to="/resources/imagery-noNav">Imagery</Link>
       </li>
-      <li
+      {/* <li
         className={`resourceListItems ${
           pathname.includes("prepare") ? "activeLink" : ""
         }`}
       >
         <Link to="/resources/prepare-noNav">Prepare Guide</Link>
-      </li>
-      <li
+      </li> */}
+      {/* <li
         className={`resourceListItems ${
           pathname.includes("selfMotivate") ? "activeLink" : ""
         }`}
       >
         <Link to="/resources/selfMotivate-noNav">Self Motivate</Link>
-      </li>
+      </li> */}
       <li
         className={`resourceListItems ${
           pathname.includes("staticFiles") ? "activeLink" : ""
@@ -95,7 +95,7 @@ const ResourceLessons = () => {
       >
         <Link to="/resources/staticFiles-noNav">Static Files Guide</Link>
       </li>
-      <li
+      {/* <li
         className={`resourceListItems ${
           pathname.includes("technicalQuestions") ? "activeLink" : ""
         }`}
@@ -103,7 +103,7 @@ const ResourceLessons = () => {
         <Link to="/resources/technicalQuestions-noNav">
           Technical Questions
         </Link>
-      </li>
+      </li> */}
     </ul>
   );
 };

@@ -12,9 +12,7 @@ const NotFound = () => {
       </div>
 
       <h1 className="notFoundPgText">Nothing Here But Code Hopefuls</h1>
-      <p className="bottomLine">
-        click around below for interesting extras or click title to return home
-      </p>
+      <p className="bottomLine">click title to return home</p>
 
       <video
         src={Glitch}
@@ -24,7 +22,6 @@ const NotFound = () => {
         muted
         className="notFoundPageVideo"
       />
-      <Footer />
     </div>
   );
 };

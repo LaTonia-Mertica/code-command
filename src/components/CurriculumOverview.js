@@ -9,7 +9,7 @@ const CurriculumOverview = () => {
       <Link to="/">
         <img
           src="arrowBack.png"
-          title="arrow back home"
+          title="back home"
           alt="arrow"
           className="resourceImg arrow arrowStyle1"
         />{" "}

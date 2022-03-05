@@ -53,9 +53,9 @@ h1#codeCommTitle {
 
 /* ARROW BACK HOME STYLES */
 .arrow {
-  width: 7rem;
+  height: 4.25rem;
   position: absolute;
-  top: 79.5rem;
+  top: 57rem;
   left: 27rem;
 
   transform: scale(1);
@@ -140,7 +140,7 @@ h1#codeCommTitle {
 }
 .landingPageButtons {
   color: #c8c4bd;
-  font-size: x-large;
+  font-size: xx-large;
   text-transform: uppercase;
   text-shadow: 0.088rem 0.088rem #3c1053ff;
 
@@ -151,6 +151,11 @@ h1#codeCommTitle {
 .landingPageButtons:focus {
   color: #5ce1e6;
   text-shadow: 0.031rem 0.031rem #360836;
+}
+
+/* STYLES FOR CODE COMMAND VISION IN SITE BTNS */
+.codeCommandVision {
+  margin-bottom: 1rem;
 }
 
 /* STYLES FOR CURRICULUM OVERVIEW IN SITE BTNS */
@@ -334,7 +339,7 @@ a#resumeFile:focus {
   border-color: #5ce1e6;
   background-color: lightcyan;
 
-  margin-top: 1.25rem;
+  margin-top: 44rem;
   margin-bottom: -0.313rem;
 }
 .borderLineDiv {

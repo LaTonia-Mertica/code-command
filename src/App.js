@@ -51,6 +51,7 @@ import SearchResourcePlaceholder from "./components/search/SearchResourcePlaceHo
 import WorkFlowLessons from "./components/workflow/WorkFlow";
 import WorkFlowResourcePlaceholder from "./components/workflow/WorkFlowResourcePlaceholder";
 
+import CodeCommandVision from "./components/CodeCommandVision";
 import CurriculumOverview from "./components/CurriculumOverview";
 import SelfAssessment from "./components/SelfAssessment";
 
@@ -72,7 +73,8 @@ import TechnicalQuestions from "./components/resources/TechnicalQuestions";
 function App() {
   const width = useWindowWidth();
   const location = useLocation();
-  console.log(location);
+  // test paths via location
+  // console.log(location);
 
   if (width < 1100) {
     return (
@@ -93,7 +95,6 @@ function App() {
           muted
           className="notFoundPageVideo"
         />
-        <Footer />
       </div>
     );
   }
@@ -106,7 +107,6 @@ function App() {
       {/* conditional render part 2 */}
       {/* {render && <Nav />} */}
       {!location.pathname.includes("noNav") && <Nav />}
-      {!location.pathname.includes("noSiteNavBtns") && <SiteNavBtns />}
 
       <Routes>
         {/* route method to displaying nav content */}
@@ -114,6 +114,12 @@ function App() {
 
         {/* route method to displaying site nav buttons  */}
         {/* <Route exact path="/sitenavbtns" element={<SiteNavBtns />}></Route> */}
+
+        <Route
+          exact
+          path="codeCommandVision-noNav"
+          element={<CodeCommandVision />}
+        ></Route>
 
         <Route
           exact

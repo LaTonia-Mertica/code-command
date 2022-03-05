@@ -6,6 +6,16 @@ const SiteNavBtns = () => {
 
   return (
     <ul className="siteButtonsUl">
+      <li className="codeCommandVision">
+        <Link
+          to="/codeCommandVision-noNav"
+          className={`siteButtons ${
+            pathname.includes("codeCommandVision") ? "activeLink" : ""
+          }`}
+        >
+          code command vision
+        </Link>
+      </li>
       <li className="curriculumOverviewClass">
         <Link
           to="/curriculumOverview-noNav"

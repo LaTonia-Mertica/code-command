@@ -13,29 +13,30 @@ const CodeCommandVision = () => {
       <Nav />
       <SiteNavBtns />
       <p className="codeCommandVisionParagraphs  para">
-        Code Command is a resource for beginner code/web devs who need to
-        improve basic computer literacy .. .<br />
+        <span className="codeCommandText">Code Command</span> is a resource for
+        beginner code/web devs who need to improve basic computer literacy .. .{" "}
         <a
           href={`${process.env.PUBLIC_URL}/lessonsContent/curriculumOverview.pdf`}
           target="_blank"
           rel="noreferrer"
         >
-          review Curriculum Overview
+          Curriculum Overview
         </a>
       </p>
       <p className="codeCommandVisionParagraphs  para">
-        Visitors do not create accounts and there is no signup. The only
-        commitment is to them/yourselves - specifically, to navigate focus areas
-        in this resource as needed to achieve a sense of comfort in basic
-        computer tasks. As such, in time - with continued practice, your
-        accountability to growth and owning your code will be reflected while
-        undeniable through your competence and confidence. If/When you
-        comfortably complete tasks outlined in the self assessment you likely no
-        longer need this resource. Still, you are welcome anytime.
+        Visitors do not create accounts. There is no signup. The only commitment
+        is to them/yourselves. Specifically, to navigate focus areas in this
+        resource as needed to achieve a sense of comfort in basic computer
+        tasks. As such, in time - with continued practice, your accountability
+        to growth and owning your code will be reflected while undeniable
+        through your competence and confidence. If/When you comfortably complete
+        tasks outlined in the self assessment you likely no longer need this
+        resource. Still, visit anytime.
       </p>
       <p className="codeCommandVisionParagraphs  para">
-        Code Command is designed in six lesson focus areas:
-        <br />-{" "}
+        <span className="codeCommandText">Code Command</span> is designed in six
+        lesson focus areas:
+        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
         <Link
           to="/macbasics"
           className={`siteButtons ${
@@ -44,7 +45,7 @@ const CodeCommandVision = () => {
         >
           mac basics
         </Link>
-        <br />-{" "}
+        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
         <Link
           to="/workflow"
           className={`siteButtons ${
@@ -53,7 +54,7 @@ const CodeCommandVision = () => {
         >
           work flow
         </Link>
-        <br />-{" "}
+        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
         <Link
           to="/online"
           className={`siteButtons ${
@@ -62,7 +63,7 @@ const CodeCommandVision = () => {
         >
           online
         </Link>
-        <br />-{" "}
+        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
         <Link
           to="/search"
           className={`siteButtons ${
@@ -71,7 +72,7 @@ const CodeCommandVision = () => {
         >
           search
         </Link>
-        <br />-{" "}
+        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
         <Link
           to="/codemind"
           className={`siteButtons ${
@@ -80,7 +81,7 @@ const CodeCommandVision = () => {
         >
           code mind
         </Link>
-        <br />-{" "}
+        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
         <Link
           to="/coding"
           className={`siteButtons ${
@@ -90,7 +91,7 @@ const CodeCommandVision = () => {
           coding
         </Link>{" "}
         <br />
-        complemented by a medley of resources.
+        complemented by a vibrant blend of resources.
       </p>
       <p className="codeCommandVisionParagraphs  para">
         Videos are 3 minutes or less. Resources contain videos, links to trusted
@@ -101,21 +102,23 @@ const CodeCommandVision = () => {
         image to access a downloadable pdf copy.
       </p>
       <p className="codeCommandVisionParagraphs  para">
-        There are no tests. Again, Code Command is designed to encourage self
-        accountability through actions that result in your comfort with the
-        material. Comfort results in competence and confidence. Use the self
-        assessment(s) - provided in video and soft hard-copy form - to determine
-        your comfort level and continue practicing specific tasks as needed.
+        There are no tests. Again,{" "}
+        <span className="codeCommandText">Code Command</span> is designed to
+        encourage self accountability through actions that result in your
+        comfort with the material. Comfort results in competence and confidence.
+        Use the self assessment(s) - provided in video and soft hard-copy form -
+        to determine your comfort level and continue practicing specific tasks
+        as needed.
       </p>
       <p className="codeCommandVisionParagraphs  para">
-        more hopefully helpful:
+        <strong>MORE HOPEFULLY HELPFUL:</strong>
         <br />-{" "}
         <a
           href={`${process.env.PUBLIC_URL}/lessonsContent/selfMotivate.pdf`}
           target="_blank"
           rel="noreferrer"
         >
-          self motivate
+          self motivate quote
         </a>
         <br />-{" "}
         <a
@@ -138,18 +141,21 @@ const CodeCommandVision = () => {
         Gifted a childhood sprinkled in moments made vibrant through words and
         writing, La'Tonia Mertica values communication, creatives, and literacy.
         Since joining the tech eco system and pursuing mastery within, La'Tonia
-        Mertica now adds code/web dev to her list of values. Code Command allows
-        me to package these values purposefully.
+        Mertica now adds code/web dev to her list of values.{" "}
+        <span className="codeCommandText">Code Command</span> allows me to
+        package these values purposefully.
         <br />
         <br />A face - in dimension, focused downward, with an open mind side -
-        is the Code Command logo. It represents intent, focused, producing
-        results from a down back up and through flow. Essentially, possibilities
-        - sighted and actively consumed regardless initial resistance.
+        is the <span className="codeCommandText">Code Command</span> logo. It
+        represents intent, focused, producing results from a down back up and
+        through flow. Essentially, possibilities - sighted and actively consumed
+        regardless initial resistance.
       </p>
       <p className="codeCommandVisionParagraphs  para">
-        Contributions of lessons and resources aligned with the vision of Code
-        Command are welcome. Those interested in commissioning me to produce
-        results for project-based work please connect via{" "}
+        Contributions of lessons and resources aligned with the vision of{" "}
+        <span className="codeCommandText">Code Command</span> are welcome. Those
+        interested in commissioning me to produce results for project-based work
+        please connect via{" "}
         <a
           href="https://www.latoniamertica.dev/"
           target="_blank"

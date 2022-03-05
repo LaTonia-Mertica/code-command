@@ -59,6 +59,9 @@ h1#codeCommTitle {
   margin-top: 1.5rem;
   margin-left: 23rem;
 }
+.codeCommandText {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
 
 /* ARROW BACK HOME STYLES */
 .arrow {
@@ -330,8 +333,8 @@ a:hover {
 /* LA'TONIA MERTICA IMAGE STYLES */
 .latoniaMertica {
   width: 113rem;
-  margin-left: -16rem;
-  margin-top: -25.8rem;
+  margin-left: -21.5rem;
+  margin-top: -0.5rem;
   margin-bottom: -147rem;
 }
 
@@ -342,7 +345,7 @@ a:hover {
 }
 div#lmdev-logo > a > img {
   width: 37rem;
-  margin-top: -1.5rem;
+  margin-top: -2rem;
 }
 h2 {
   font-size: small;
@@ -378,7 +381,6 @@ h3.center {
   line-height: 1.063rem;
 }
 .pronunciation {
-  color: white;
   font-style: italic;
   font-size: x-small;
   margin-bottom: -0.188rem;

@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "https://www.latoniamertica.dev/code-command/static/css/main.d91c848e.css",
-    "main.js": "https://www.latoniamertica.dev/code-command/static/js/main.1bcbf349.js",
+    "main.css": "https://www.latoniamertica.dev/code-command/static/css/main.e1012a52.css",
+    "main.js": "https://www.latoniamertica.dev/code-command/static/js/main.06c88f6b.js",
     "static/js/787.d7e8da20.chunk.js": "https://www.latoniamertica.dev/code-command/static/js/787.d7e8da20.chunk.js",
-    "static/media/scapeSpan.mp4": "https://www.latoniamertica.dev/code-command/static/media/scapeSpan.dd8d795bd0e399575d6f.mp4",
+    "static/media/scapeSpan2.mp4": "https://www.latoniamertica.dev/code-command/static/media/scapeSpan2.022a0a66b6dc3153dddd.mp4",
     "static/media/Glitch.mp4": "https://www.latoniamertica.dev/code-command/static/media/Glitch.dd5d91c2404f1c79bced.mp4",
     "static/media/underConstruction.mp4": "https://www.latoniamertica.dev/code-command/static/media/underConstruction.debdee1d955d2c4e5c5e.mp4",
     "static/media/globe.png": "https://www.latoniamertica.dev/code-command/static/media/globe.fa4ae5a27b2787a60484.png",
@@ -11,12 +11,12 @@
     "static/media/share.png": "https://www.latoniamertica.dev/code-command/static/media/share.5364a8561907cac75381.png",
     "static/media/lmdotdevlogo.png": "https://www.latoniamertica.dev/code-command/static/media/lmdotdevlogo.2699b64159908544be8c.png",
     "index.html": "https://www.latoniamertica.dev/code-command/index.html",
-    "main.d91c848e.css.map": "https://www.latoniamertica.dev/code-command/static/css/main.d91c848e.css.map",
-    "main.1bcbf349.js.map": "https://www.latoniamertica.dev/code-command/static/js/main.1bcbf349.js.map",
+    "main.e1012a52.css.map": "https://www.latoniamertica.dev/code-command/static/css/main.e1012a52.css.map",
+    "main.06c88f6b.js.map": "https://www.latoniamertica.dev/code-command/static/js/main.06c88f6b.js.map",
     "787.d7e8da20.chunk.js.map": "https://www.latoniamertica.dev/code-command/static/js/787.d7e8da20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d91c848e.css",
-    "static/js/main.1bcbf349.js"
+    "static/css/main.e1012a52.css",
+    "static/js/main.06c88f6b.js"
   ]
 }

@@ -94,14 +94,7 @@ function App() {
 
         <h1>size seize</h1>
         <h3 className="needLarger">need larger screen or device</h3>
-        <video
-          src={Glitch}
-          controls="controls"
-          autoPlay
-          loop
-          muted
-          className="notFoundPageVideo"
-        />
+        <video src={Glitch} autoPlay loop muted className="notFoundPageVideo" />
       </div>
     );
   }

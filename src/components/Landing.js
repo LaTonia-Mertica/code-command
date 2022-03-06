@@ -11,7 +11,6 @@ const Landing = () => {
         <h2 id="landingTagline">know what's where and why you need to know</h2> */}
       <video
         src={scapeSpan2}
-        controls="controls"
         autoPlay
         loop
         muted

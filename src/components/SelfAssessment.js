@@ -21,7 +21,6 @@ const SelfAssessment = () => {
 
       <video
         src={underConstruction}
-        controls="controls"
         autoPlay
         loop
         muted

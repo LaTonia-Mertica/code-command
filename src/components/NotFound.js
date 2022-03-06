@@ -14,14 +14,7 @@ const NotFound = () => {
       <h1 className="notFoundPgText">Nothing Here But Code Hopefuls</h1>
       <p className="bottomLine">click title to return home</p>
 
-      <video
-        src={Glitch}
-        controls="controls"
-        autoPlay
-        loop
-        muted
-        className="notFoundPageVideo"
-      />
+      <video src={Glitch} autoPlay loop muted className="notFoundPageVideo" />
     </div>
   );
 };

@@ -29,8 +29,15 @@ import CodeMindLessons from "./components/codemind/CodeMindLessons";
 import CodeMindResourcePlaceholder from "./components/codemind/CodeMindResourcePlaceholder";
 
 import CodingLessons from "./components/coding/CodingLessons";
-import JsForLoop from "./components/coding/JsForLoop";
 import CodingResourcePlaceholder from "./components/coding/CodingResourcePlaceholder";
+import ConsoleLog from "./components/coding/ConsoleLog";
+import SetupHtmlFile from "./components/coding/SetupHtmlFile";
+import LinkCssToHtml from "./components/coding/LinkCssToHtml";
+import NewScriptBoilerplateHtml from "./components/coding/NewScriptBoilerplateHtml";
+import RunHtmlWithCssInBrowser from "./components/coding/RunHtmlWithCssInBrowser";
+import InspectTool from "./components/coding/InspectTool";
+import NodeScriptRun from "./components/coding/NodeScriptRun";
+import JsForLoop from "./components/coding/JsForLoop";
 
 import MacBasicsLessons from "./components/macbasics/MacBasics";
 import MacBasicsResourcePlaceHolder from "./components/macbasics/MacBasicsResourcePlaceHolder";
@@ -150,11 +157,20 @@ function App() {
             path="CodingResourcePlaceholder-noNav"
             element={<CodingResourcePlaceholder />}
           />
+          <Route path="ConsoleLog-noNav" element={<ConsoleLog />} />
+          <Route path="SetupHtmlFile-noNav" element={<SetupHtmlFile />} />
+          <Route path="LinkCssToHtml-noNav" element={<LinkCssToHtml />} />
+          <Route
+            path="NewScriptBoilerplateHtml-noNav"
+            element={<NewScriptBoilerplateHtml />}
+          />
+          <Route
+            path="RunHtmlWithCssInBrowser-noNav"
+            element={<RunHtmlWithCssInBrowser />}
+          />
+          <Route path="InspectTool-noNav" element={<InspectTool />} />
+          <Route path="NodeScriptRun-noNav" element={<NodeScriptRun />} />
           <Route path="JsForLoop-noNav" element={<JsForLoop />} />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
         </Route>
 
         <Route exact path="/macbasics" element={<MacBasics />}>

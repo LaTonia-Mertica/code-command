@@ -161,7 +161,18 @@ h1#codeCommTitle {
 .landingPageButtons:hover,
 .landingPageButtons:focus {
   color: #5ce1e6;
+  transform: scale(1.7);
   text-shadow: 0.031rem 0.031rem #360836;
+  /* EASE EFFECT ON LANDING PAGE BUTTONS */
+  animation: right_to_left 3s ease-out;
+}
+@keyframes right_to_left {
+  from {
+    margin-right: -3%;
+  }
+  to {
+    margin-right: 0;
+  }
 }
 
 /* STYLES FOR CODE COMMAND VISION IN SITE BTNS */

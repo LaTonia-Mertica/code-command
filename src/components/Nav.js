@@ -14,8 +14,32 @@ const Nav = () => {
           <h2 id="codeCommTagline">visualize coding, prepare to code, code</h2>
         </Link>
 
-        <img src={globe} alt="Globe Icon" className="socialIcons" id="globe" />
-        <img src={share} alt="Share Icon" className="socialIcons" id="share" />
+        <a
+          href="https://www.latoniamertica.dev/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={globe}
+            alt="Globe Icon"
+            className="socialIcons"
+            id="globe"
+            title="latoniamertica.dev"
+          />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.latoniamertica.dev/code-command/#/"
+          target="_blank"
+          title="share code command on linkedin"
+        >
+          <img
+            src={share}
+            alt="Share Icon"
+            className="socialIcons"
+            id="share"
+          />
+        </a>
       </nav>
     </div>
   );

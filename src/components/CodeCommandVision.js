@@ -36,7 +36,9 @@ const CodeCommandVision = () => {
       <p className="codeCommandVisionParagraphs  para">
         <span className="codeCommandText">Code Command</span> is designed in six
         lesson focus areas:
-        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
+        <br />{" "}
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        -{" "}
         <Link
           to="/macbasics"
           className={`siteButtons ${
@@ -45,7 +47,9 @@ const CodeCommandVision = () => {
         >
           mac basics
         </Link>
-        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
+        <br />{" "}
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        -{" "}
         <Link
           to="/workflow"
           className={`siteButtons ${
@@ -54,7 +58,9 @@ const CodeCommandVision = () => {
         >
           work flow
         </Link>
-        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
+        <br />{" "}
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        -{" "}
         <Link
           to="/online"
           className={`siteButtons ${
@@ -63,7 +69,9 @@ const CodeCommandVision = () => {
         >
           online
         </Link>
-        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
+        <br />{" "}
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        -{" "}
         <Link
           to="/search"
           className={`siteButtons ${
@@ -72,7 +80,9 @@ const CodeCommandVision = () => {
         >
           search
         </Link>
-        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
+        <br />{" "}
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        -{" "}
         <Link
           to="/codemind"
           className={`siteButtons ${
@@ -81,7 +91,9 @@ const CodeCommandVision = () => {
         >
           code mind
         </Link>
-        <br /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -{" "}
+        <br />{" "}
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        -{" "}
         <Link
           to="/coding"
           className={`siteButtons ${
@@ -113,27 +125,36 @@ const CodeCommandVision = () => {
       </p>
       <p className="codeCommandVisionParagraphs  para">
         <strong>MORE HOPEFULLY HELPFUL:</strong>
-        <br />-{" "}
+        <br />
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        -{" "}
         <a
           href={`${process.env.PUBLIC_URL}/lessonsContent/selfMotivate.pdf`}
           target="_blank"
           rel="noreferrer"
+          title="download copy"
         >
           self motivate quote
         </a>
-        <br />-{" "}
+        <br />
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        -{" "}
         <a
           href={`${process.env.PUBLIC_URL}/lessonsContent/prepare.pdf`}
           target="_blank"
           rel="noreferrer"
+          title="download copy"
         >
           prepare guide
         </a>
-        <br />-{" "}
+        <br />
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        -{" "}
         <a
           href={`${process.env.PUBLIC_URL}/lessonsContent/techQs.pdf`}
           target="_blank"
           rel="noreferrer"
+          title="download copy"
         >
           technical questions guide
         </a>
@@ -143,7 +164,7 @@ const CodeCommandVision = () => {
         writing, La'Tonia Mertica values communication, creatives, and literacy.
         Since joining the tech eco system and pursuing mastery within, La'Tonia
         Mertica now adds code/web dev to her list of values.{" "}
-        <span className="codeCommandText">Code Command</span> allows me to
+        <span className="codeCommandText">Code Command</span> allows her/me to
         package these values purposefully.
         <br />
         <br />A face - in dimension, focused downward, with an open mind side -

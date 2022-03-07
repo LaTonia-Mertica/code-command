@@ -55,6 +55,7 @@ import OnlineResourcePlaceholder from "./components/online/OnlineResourcePlaceho
 import SearchLessons from "./components/search/Search";
 import SearchResourcePlaceholder from "./components/search/SearchResourcePlaceHolder";
 import CodeCommenting from "./components/search/CodeCommenting";
+import StackOverflowEtc from "./components/search/StackOverflowEtc";
 
 import WorkFlowLessons from "./components/workflow/WorkFlow";
 import WorkFlowResourcePlaceholder from "./components/workflow/WorkFlowResourcePlaceholder";
@@ -228,9 +229,9 @@ function App() {
             element={<SearchResourcePlaceholder />}
           />
           <Route path="CodeCommenting-noNav" element={<CodeCommenting />} />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
-          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
+          <Route path="StackOverflowEtc-noNav" element={<StackOverflowEtc />} />
+          {/* <Route path="PlaceholderVideo" element={<PlaceholderVideo />} />
+          <Route path="PlaceholderVideo" element={<PlaceholderVideo />} /> */}
         </Route>
 
         <Route exact path="/workflow" element={<WorkFlow />}>

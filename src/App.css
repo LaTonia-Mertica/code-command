@@ -35,6 +35,17 @@ h1#codeCommTitle {
   position: absolute;
   left: -4.813rem;
   top: 29.688rem;
+
+  /* BELOW ANIMATION & KEYFRAMES GLOW TAGLINE */
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 0.5rem #c8c4bd;
+  }
+  to {
+    text-shadow: 0 0 0.25rem#c8c4bd, 0 0 0.15rem black;
+  }
 }
 
 /* SOCIAL ICON STYLES IN TITLE */

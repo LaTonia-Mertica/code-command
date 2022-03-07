@@ -13,7 +13,9 @@ const SearchLessons = () => {
         <Link to="/search/CodeCommenting-noNav">comment in code</Link>
       </li>
       <li className="searchListItems">
-        <Link to="/search/PlaceholderVideo">Dummy Video</Link>
+        <Link to="/search/BreakDownChallenge-noNav">
+          break down a challenge
+        </Link>
       </li>
       <li className="searchListItems">
         <Link to="/search/StackOverflowEtc-noNav">

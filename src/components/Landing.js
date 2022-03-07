@@ -14,7 +14,7 @@ const Landing = () => {
         autoPlay
         loop
         muted
-        className="notFoundPageVideo staticIntro"
+        className="landingPageVideo"
       />
     </div>
   );

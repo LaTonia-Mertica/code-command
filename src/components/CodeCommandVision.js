@@ -94,12 +94,13 @@ const CodeCommandVision = () => {
         complemented by a vibrant blend of resources.
       </p>
       <p className="codeCommandVisionParagraphs  para">
-        Videos are 3 minutes or less. Resources contain videos, links to trusted
-        external resources, and images of the first page of soft hard-copy
-        documents. Click these images to access downloadable pdf copies. Each
-        lesson focus area includes a step-by-step compilation of tasks (curated
-        from the videos), which is also designed as a clickable soft hard-copy
-        image to access a downloadable pdf copy.
+        Videos are 3 minutes or less - seldom longer, and never over 5 minutes.
+        Resources contain videos, links to trusted external resources, and
+        images of the first page of soft hard-copy documents. Click these images
+        to access downloadable pdf copies. Each lesson focus area includes a
+        step-by-step compilation of tasks (curated from the videos), which is
+        also designed as a clickable soft hard-copy image to access a
+        downloadable pdf copy.
       </p>
       <p className="codeCommandVisionParagraphs  para">
         There are no tests. Again,{" "}

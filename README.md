@@ -4,6 +4,10 @@
 
 ##### _visualize coding, prepare to code, code_
 
+##### [visit live demo](https://www.latoniamertica.dev/code-command/#/)
+
+<br>
+
 ###### [curriculum overview](public/lessonsContent/curriculumOverview.pdf)
 
 ###### [prepare guide](public/lessonsContent/prepare.pdf)

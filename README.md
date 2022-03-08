@@ -47,6 +47,7 @@ provide a learning tool for beginning coders who want/need to upskill their basi
   - non-graded to encourage learning<br>
   - non-linear to encourage repetition<br>
   - designed to offer basic literacy<br>
+  - soft hard-copy and video options<br>
 
 <br>
 
@@ -63,6 +64,8 @@ provide a learning tool for beginning coders who want/need to upskill their basi
 
 - build solid lessons in each focus area<br>
 - fine tune overall lesson plan and content<br>
+- outline, map, and build self assessment<br>
+- craft step-by-step resource per lesson focus area<br>
 - polish general layout & design to mobile 1st<br>
 - promote/secure position as learning tool to entities<br>
   <br>

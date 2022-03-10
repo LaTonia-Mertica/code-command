@@ -37,16 +37,16 @@ h1#codeCommTitle {
   top: 29.688rem;
 
   /* BELOW ANIMATION & KEYFRAMES GLOW TAGLINE */
-  animation: glow 2s ease-in-out infinite alternate;
+  /* animation: glow 2s ease-in-out infinite alternate; */
 }
-@keyframes glow {
+/* @keyframes glow {
   from {
     text-shadow: 0 0 0.5rem whitesmoke;
   }
   to {
     text-shadow: 0 0 0.25rem#c8c4bd, 0 0 0.15rem black;
   }
-}
+} */
 
 /* SOCIAL ICON STYLES IN TITLE */
 .socialIcons {

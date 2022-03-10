@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import Nav from "./Nav";
 import SiteNavBtns from "./SiteNavBtns";
 import { Link, useLocation } from "react-router-dom";
+import Confetti from "../Confetti";
 import Footer from "./Footer";
 
 const CodeCommandVision = () => {
@@ -10,6 +11,7 @@ const CodeCommandVision = () => {
 
   return (
     <div className="codeCommandVisionDiv">
+      <Confetti />
       <Nav />
       <SiteNavBtns />
       <p className="codeCommandVisionParagraphs  para">

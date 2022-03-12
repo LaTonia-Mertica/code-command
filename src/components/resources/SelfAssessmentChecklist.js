@@ -14,6 +14,7 @@ const SelfAssessmentChecklist = () => {
           title="self assessment checklist"
           alt="self assessment checklist"
           className="resourceImg selfAssessmentChecklist"
+          target="_blank"
         />
       </a>
     </div>

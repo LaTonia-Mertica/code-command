@@ -1,6 +1,5 @@
 import React from "react";
 import Glitch from "./videos/Glitch.mp4";
-import Footer from "./Footer";
 
 const NotFound = () => {
   return (

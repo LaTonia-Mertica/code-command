@@ -26,6 +26,9 @@ const LandingPageBtns = () => {
         <Link to="/resources">
           <h1 className="landingPageButtons">resources</h1>
         </Link>
+        <Link to="/codeCommandVision-noNav">
+          <h1 className="landingPageButtons startHereText">start here</h1>
+        </Link>
       </div>
     </div>
   );

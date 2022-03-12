@@ -31,6 +31,7 @@ const Nav = () => {
         <a
           href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.latoniamertica.dev/code-command/#/"
           target="_blank"
+          rel="noreferrer"
           title="share code command on linkedin"
         >
           <img

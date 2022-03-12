@@ -1,7 +1,6 @@
 import React from "react";
 import LandingPageBtns from "./LandingPageBtns";
 import scapeSpan2 from "../components/videos/scapeSpan2.mp4";
-import Footer from "./Footer";
 
 const Landing = () => {
   return (

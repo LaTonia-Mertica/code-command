@@ -8,11 +8,12 @@ const SelfAssessment = () => {
   return (
     <div className="selfAssessment">
       <SiteNavBtns />
+
       {/* <h1 className="selfAssessmentH1">assessment</h1> */}
       <h2 className="selfAssessmentH2">crafting</h2>
       <Link to="/">
         <img
-          src="arrowBack.png"
+          src={`${process.env.PUBLIC_URL}/arrowBack.png`}
           title="visit landing page"
           alt="arrow"
           className="resourceImg arrow"

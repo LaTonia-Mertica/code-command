@@ -3,7 +3,7 @@ import NotFound from "./components/NotFound";
 import "./App.css";
 import React from "react";
 import {
-  HashRouter as Router,
+  // HashRouter as Router,
   Route,
   Routes,
   useLocation,
@@ -11,7 +11,7 @@ import {
 import { useWindowWidth } from "@react-hook/window-size";
 
 import Nav from "./components/Nav";
-import SiteNavBtns from "./components/SiteNavBtns";
+// import SiteNavBtns from "./components/SiteNavBtns";
 import CodeMind from "./components/codemind/CodeMind";
 import Coding from "./components/coding/Coding";
 import MacBasics from "./components/macbasics/MacBasics";
@@ -25,10 +25,10 @@ import Landing from "./components/Landing";
 import Glitch from "./components/videos/Glitch.mp4";
 import PlaceholderVideo from "./components/codemind/PlaceholderVideo";
 
-import CodeMindLessons from "./components/codemind/CodeMindLessons";
+// import CodeMindLessons from "./components/codemind/CodeMindLessons";
 import CodeMindResourcePlaceholder from "./components/codemind/CodeMindResourcePlaceholder";
 
-import CodingLessons from "./components/coding/CodingLessons";
+// import CodingLessons from "./components/coding/CodingLessons";
 import CodingResourcePlaceholder from "./components/coding/CodingResourcePlaceholder";
 import ConsoleLog from "./components/coding/ConsoleLog";
 import SetupHtmlFile from "./components/coding/SetupHtmlFile";
@@ -39,7 +39,7 @@ import InspectTool from "./components/coding/InspectTool";
 import NodeScriptRun from "./components/coding/NodeScriptRun";
 import JsForLoop from "./components/coding/JsForLoop";
 
-import MacBasicsLessons from "./components/macbasics/MacBasics";
+// import MacBasicsLessons from "./components/macbasics/MacBasics";
 import MacBasicsResourcePlaceHolder from "./components/macbasics/MacBasicsResourcePlaceHolder";
 import AboutMac from "./components/macbasics/AboutMac";
 import CustomizeMac from "./components/macbasics/CustomizeMac";
@@ -49,23 +49,24 @@ import FileFolderDelete from "./components/macbasics/FileFolderDelete";
 import SaveFolderInDocs from "./components/macbasics/SaveFolderInDocs";
 import AddAppToDock from "./components/macbasics/AddAppToDock";
 
-import OnlineLessons from "./components/online/OnlineLessons";
+// import OnlineLessons from "./components/online/OnlineLessons";
 import OnlineResourcePlaceholder from "./components/online/OnlineResourcePlaceholder";
 
-import SearchLessons from "./components/search/Search";
+// import SearchLessons from "./components/search/Search";
 import SearchResourcePlaceholder from "./components/search/SearchResourcePlaceHolder";
 import CodeCommenting from "./components/search/CodeCommenting";
 import BreakDownChallenge from "./components/search/BreakDownChallenge";
 import StackOverflowEtc from "./components/search/StackOverflowEtc";
 
-import WorkFlowLessons from "./components/workflow/WorkFlow";
+// import WorkFlowLessons from "./components/workflow/WorkFlow";
 import WorkFlowResourcePlaceholder from "./components/workflow/WorkFlowResourcePlaceholder";
 
 import CodeCommandVision from "./components/CodeCommandVision";
 import CurriculumOverview from "./components/CurriculumOverview";
 import SelfAssessment from "./components/SelfAssessment";
+import ConfettiRain from "./ConfettiRain";
 
-import ResourceLessons from "./components/resources/ResourceLessons";
+// import ResourceLessons from "./components/resources/ResourceLessons";
 import SelfAssessmentChecklist from "./components/resources/SelfAssessmentChecklist";
 import AdmireTrying from "./components/resources/AdmireTrying";
 import Balance from "./components/resources/Balance";
@@ -135,6 +136,8 @@ function App() {
           path="/SelfAssessment-noNav"
           element={<SelfAssessment />}
         ></Route>
+
+        <Route exact path="/confettiRain" element={<ConfettiRain />}></Route>
 
         <Route exact path="/codemind" element={<CodeMind />}>
           <Route

@@ -2,7 +2,6 @@ import React from "react";
 
 import lmdotdevlogo from "./images/lmdotdevlogo.png";
 import pptrello from "./images/pptrello.png";
-import LaToniaMerticaResume from "./images/LaToniaMerticaResume.pdf";
 
 const Footer = () => {
   return (

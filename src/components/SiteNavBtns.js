@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 
 const SiteNavBtns = () => {
   const { pathname } = useLocation();
-
   return (
     <ul className="siteButtonsUl">
       <li className="codeCommandVision">
@@ -94,6 +93,16 @@ const SiteNavBtns = () => {
           }`}
         >
           resources
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="/confettiRain"
+          className={`siteButtons confettiButton ${
+            pathname.includes("confettirain") ? "activeLink" : ""
+          }`}
+        >
+          confetti rain
         </Link>
       </li>
     </ul>

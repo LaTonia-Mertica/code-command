@@ -35,18 +35,7 @@ h1#codeCommTitle {
   position: absolute;
   left: -4.813rem;
   top: 29.688rem;
-
-  /* BELOW ANIMATION & KEYFRAMES GLOW TAGLINE */
-  /* animation: glow 2s ease-in-out infinite alternate; */
 }
-/* @keyframes glow {
-  from {
-    text-shadow: 0 0 0.5rem whitesmoke;
-  }
-  to {
-    text-shadow: 0 0 0.25rem#c8c4bd, 0 0 0.15rem black;
-  }
-} */
 
 /* SOCIAL ICON STYLES IN TITLE */
 .socialIcons {
@@ -60,6 +49,23 @@ h1#codeCommTitle {
 }
 #share {
   left: 5.688rem;
+}
+
+/* START HERE TEXT ON LANDING PAGE STYLES */
+.startHereText {
+  /* BELOW ANIMATION & KEYFRAMES GLOW START HERE */
+  color: blue !important;
+  font-weight: bold;
+
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 0.25rem blue;
+  }
+  to {
+    text-shadow: 0 0 0.25rem #c8c4bd, 0 0 0.25rem silver;
+  }
 }
 
 /* CODE COMMAND VISION STYLES */
@@ -366,6 +372,36 @@ a:hover {
   to {
     color: #c8c4bd;
   }
+}
+
+/* CONFETTI STYLES */
+.confettiButton {
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  text-shadow: none;
+  font-family: "Haettenschweiler", sans-serif;
+
+  position: absolute;
+  top: 1rem !important;
+
+  /* BELOW ANIMATION & KEYFRAMES GLOW START HERE */
+  color: blue !important;
+  font-weight: bold;
+
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 0.25rem blue;
+  }
+  to {
+    text-shadow: 0 0 0.25rem #c8c4bd, 0 0 0.25rem silver;
+  }
+}
+.confettiButton:hover {
+  color: #c8c4bd !important;
+  text-shadow: 0.027rem 0.027rem black;
+  transform: scale(1.3);
 }
 
 /* LA'TONIA MERTICA IMAGE STYLES */

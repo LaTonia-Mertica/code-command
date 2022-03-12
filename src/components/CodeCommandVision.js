@@ -108,6 +108,22 @@ const CodeCommandVision = () => {
         complemented by a vibrant blend of resources.
       </p>
       <p className="codeCommandVisionParagraphs  para">
+        Essential to navigation of this and any site is <i>click</i>. Reading
+        how-to do something is helpful. More helpful at times is searching
+        online for videos/animations to see how it's done. Still,{" "}
+        <a
+          href={`${process.env.PUBLIC_URL}/click.png`}
+          target="_blank"
+          rel="noreferrer"
+          title="click how-to"
+        >
+          click here to access a simple graphic
+        </a>{" "}
+        outlining how to <i>click</i>. Click is used a lot in the lesson focus
+        areas videos - if you don't already, you'll recognize which <i>click</i>{" "}
+        is being used with practice and time.
+      </p>
+      <p className="codeCommandVisionParagraphs  para">
         Videos are 3 minutes or less - seldom longer, and never over 5 minutes.
         Resources contain videos, links to trusted external resources, and
         images of the first page of soft hard-copy documents. Click these images
@@ -197,6 +213,22 @@ const CodeCommandVision = () => {
         </a>{" "}
         may be helpful.
       </p>
+      <p className="codeCommandVisionParagraphs  para">
+        <strong>AND SO WHAT'S WITH THE CONFETTI</strong>
+        <br />
+        Things happen all the time that we need to celebrate. Some thing that
+        makes us smile to ourselves. Other things that draw attention. Whether
+        wanted or not. From others who smile for and with us. Big things. Maybe
+        moreso not-so-big things. Yet still never insignificant. Toss confetti
+        time is simply recognition that while life may be a challenge, there are
+        things along the way we should pause to admire. Tossed symbolically -
+        such as in words. Or literally. Without worry about boasting. Or risk of
+        ever tossing too much. I'm constantly tossing mine. Toss yours.
+        <br />
+        <br />
+        Completing the self assessment is a good opportunity. Too is each task
+        you conquer along the way. .. toss YOUR confetti.
+      </p>
       <img
         src={`${process.env.PUBLIC_URL}/code-master-hopefuls.png`}
         title="La'Tonia Mertica"
@@ -210,16 +242,3 @@ const CodeCommandVision = () => {
 };
 
 export default CodeCommandVision;
-
-{
-  /* <li className="curriculumOverviewClass">
-        <Link
-          to="/curriculumOverview-noNav"
-          className={`siteButtons ${
-            pathname.includes("curriculumOverview") ? "activeLink" : ""
-          }`}
-        >
-          curriculum overview
-        </Link>
-      </li> */
-}

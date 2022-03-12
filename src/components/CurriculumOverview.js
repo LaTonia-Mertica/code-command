@@ -1,5 +1,4 @@
 import React from "react";
-import SiteNavBtns from "./SiteNavBtns";
 import { Link } from "react-router-dom";
 
 const CurriculumOverview = () => {

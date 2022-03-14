@@ -137,7 +137,11 @@ function App() {
           element={<SelfAssessment />}
         ></Route>
 
-        <Route exact path="/confettiRain" element={<ConfettiRain />}></Route>
+        <Route
+          exact
+          path="/confettiRain-noNav"
+          element={<ConfettiRain />}
+        ></Route>
 
         <Route exact path="/codemind" element={<CodeMind />}>
           <Route

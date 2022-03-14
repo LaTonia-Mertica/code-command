@@ -97,7 +97,7 @@ const SiteNavBtns = () => {
       </li>
       <li>
         <Link
-          to="/confettiRain"
+          to="/confettiRain-noNav"
           className={`siteButtons confettiButton ${
             pathname.includes("confettirain") ? "activeLink" : ""
           }`}

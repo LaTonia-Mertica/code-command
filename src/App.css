@@ -107,6 +107,13 @@ h1#codeCommTitle {
   }
 }
 
+/* ARROW IN CONFETTI STYLES */
+.arrowInConfetti {
+  position: absolute;
+  top: 27rem;
+  left: 15rem;
+}
+
 /* SELF ASSESSMENT PAGE UNDER CONSTRUCTION STYLES */
 .selfAssessmentH2 {
   color: crimson;

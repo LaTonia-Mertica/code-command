@@ -4,6 +4,6 @@ import Confetti from "react-confetti";
 
 const ConfettiRainToss = () => {
   const { width, height } = useWindowSize();
-  return <Confetti width={1500} height={1000} />;
+  return <Confetti width={1700} height={1000} />;
 };
 export default ConfettiRainToss;

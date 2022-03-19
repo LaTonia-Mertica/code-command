@@ -108,7 +108,7 @@ const CodeCommandVision = () => {
         complemented by a vibrant blend of resources.
       </p>
       <p className="codeCommandVisionParagraphs  para">
-        Essential to navigation of this and any site is <i>click</i>. Reading
+        Essential to navigation of this and any site is <em>click</em>. Reading
         how-to do something is helpful. More helpful at times is searching
         online for videos/animations to see how it's done. Still,{" "}
         <a
@@ -119,9 +119,9 @@ const CodeCommandVision = () => {
         >
           click here to access a simple graphic
         </a>{" "}
-        outlining how to <i>click</i>. Click is used a lot in the lesson focus
-        areas videos - if you don't already, you'll recognize which <i>click</i>{" "}
-        is being used with practice and time.
+        outlining how to <em>click</em>. Click is used a lot in the lesson focus
+        areas videos - if you don't already, you'll recognize which{" "}
+        <em>click</em> is being used with practice and time.
       </p>
       <p className="codeCommandVisionParagraphs  para">
         Videos are 3 minutes or less - seldom longer, and never over 5 minutes.

@@ -411,6 +411,13 @@ a:hover {
   transform: scale(1.3);
 }
 
+/* CREDITS STYLES */
+.creditTitle {
+  color: #545454;
+  font-size: large;
+  font-family: monospace, sans-serif;
+}
+
 /* LA'TONIA MERTICA IMAGE STYLES */
 .latoniaMertica {
   width: 113rem;

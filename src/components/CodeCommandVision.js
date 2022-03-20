@@ -229,6 +229,13 @@ const CodeCommandVision = () => {
         Completing the self assessment is a good opportunity. Too is each task
         you conquer along the way. .. toss YOUR confetti.
       </p>
+      <p class="credits para">
+        <span class="creditTitle">CREDITS</span>
+        <br />
+        Homepage, media query, not found page videos courtesy Pixabay. Remaining
+        creatives, collaterals, and styles produced by La'Tonia Mertica using
+        Adobe Creative Suite, Canva, and Cascading Style Sheets.
+      </p>
       <img
         src={`${process.env.PUBLIC_URL}/code-master-hopefuls.png`}
         title="La'Tonia Mertica"

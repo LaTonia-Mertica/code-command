@@ -10,7 +10,7 @@ const WorkFlowResourcePlaceholder = () => {
       >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/WorkFlowResourcePlaceholder.png`}
-          title="work flow resource placeholder poster"
+          title="work flow resource placeholder"
           alt="work flow resource"
           className="resourceImg workFlowPlaceholderImg"
         />

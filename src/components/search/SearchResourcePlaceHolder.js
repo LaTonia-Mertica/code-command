@@ -10,7 +10,7 @@ const SearchResourcePlaceHolder = () => {
       >
         <img
           src={`${process.env.PUBLIC_URL}/lessonsContent/searchResourcePlaceHolder.png`}
-          title="search resource placeholder poster"
+          title="search resource placeholder"
           alt="search resource"
           className="resourceImg searchPlaceholderImg"
         />

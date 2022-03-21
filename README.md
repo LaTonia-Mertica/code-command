@@ -6,7 +6,7 @@
 
 ##### [visit live demo](https://www.latoniamertica.dev/code-command/#/)
 
-##### [view presentation](public/codeCommandPresentation.mp4)
+<!-- ##### [view presentation](public/codeCommandPresentation.mp4) -->
 
 <br>
 

@@ -234,7 +234,10 @@ const CodeCommandVision = () => {
         <br />
         Homepage, media query, not found page videos courtesy Pixabay. Remaining
         creatives, collaterals, and styles produced by La'Tonia Mertica using
-        Adobe Creative Suite, Canva, and Cascading Style Sheets.
+        Adobe Creative Suite, Canva, and Cascading Style Sheets - each element
+        included to enhance holistic perspective and approach regarding code/web
+        dev. From pre-planning through implementation and including maintenance
+        of outcomes.
       </p>
       <img
         src={`${process.env.PUBLIC_URL}/code-master-hopefuls.png`}

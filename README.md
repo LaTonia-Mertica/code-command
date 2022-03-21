@@ -6,6 +6,8 @@
 
 ##### [visit live demo](https://www.latoniamertica.dev/code-command/#/)
 
+##### [view presentation](public/codeCommandPresentation.mp4)
+
 <br>
 
 ###### [curriculum overview](public/lessonsContent/curriculumOverview.pdf)

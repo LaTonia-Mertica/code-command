@@ -236,7 +236,7 @@ const CodeCommandVision = () => {
         creatives, collaterals, and styles produced by La'Tonia Mertica using
         Adobe Creative Suite, Canva, and Cascading Style Sheets - each element
         included to enhance holistic perspective and approach regarding code/web
-        dev. From pre-planning through implementation and including maintenance
+        dev. From pre-planning through implementation and including sustenance
         of outcomes.
       </p>
       <img

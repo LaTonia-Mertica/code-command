@@ -6,7 +6,13 @@
 
 ##### [visit live demo](https://www.latoniamertica.dev/code-command/#/)
 
-<!-- ##### [view presentation](public/codeCommandPresentation.mp4) -->
+##### [view project teaser](https://drive.google.com/file/d/1WRgbn0Mtz1vQ6o-MDRfigGpqHHg7_3VL/view?usp=sharing)
+
+##### [view testimonial](https://drive.google.com/file/d/1VgzFZXx39FchGUR4GerBWPmvRGPWmY4z/view?usp=sharing)
+
+<br>
+
+##### _this link goes to content I wish I'd pushed the timeline on to fine tune before submitting_ [view original presentation](https://drive.google.com/file/d/1ouCbomIj7ZLV9FW_0U7pZJD88S2kbCRZ/view?usp=sharing)
 
 <br>
 

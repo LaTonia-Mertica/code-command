@@ -232,9 +232,10 @@ const CodeCommandVision = () => {
       <p class="credits para">
         <span class="creditTitle">CREDITS</span>
         <br />
-        Homepage, media query, not found page videos courtesy Pixabay. Remaining
-        creatives, collaterals, and styles produced by La'Tonia Mertica using
-        Adobe Creative Suite, Canva, and Cascading Style Sheets - each element
+        Homepage, media query, not found page videos courtesy Pixabay.{" "}
+        <em>For Loop</em> tutorial courtesy Jason Doze. Remaining creatives,
+        collaterals, and styles produced by La'Tonia Mertica using Adobe
+        Creative Suite, Canva, and Cascading Style Sheets - each element
         included to enhance holistic perspective and approach regarding code/web
         dev. From pre-planning through implementation and including sustenance
         of outcomes.

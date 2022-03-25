@@ -1,10 +1,10 @@
 import React from "react";
 
-const MacBasicsResourcePlaceHolder = () => {
+const MacBasicsResourcePlaceholder = () => {
   return (
     <div>
       <a
-        href={`${process.env.PUBLIC_URL}/lessonsContent/macBasicsResourcePlaceHolder.pdf`}
+        href={`${process.env.PUBLIC_URL}/lessonsContent/macBasicsResourcePlaceholder.pdf`}
         target="_blank"
         rel="noreferrer"
       >
@@ -19,4 +19,4 @@ const MacBasicsResourcePlaceHolder = () => {
   );
 };
 
-export default MacBasicsResourcePlaceHolder;
+export default MacBasicsResourcePlaceholder;

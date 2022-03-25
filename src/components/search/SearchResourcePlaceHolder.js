@@ -1,15 +1,15 @@
 import React from "react";
 
-const SearchResourcePlaceHolder = () => {
+const SearchResourcePlaceholder = () => {
   return (
     <div>
       <a
-        href={`${process.env.PUBLIC_URL}/lessonsContent/searchResourcePlaceHolder.pdf`}
+        href={`${process.env.PUBLIC_URL}/lessonsContent/searchResourcePlaceholder.pdf`}
         target="_blank"
         rel="noreferrer"
       >
         <img
-          src={`${process.env.PUBLIC_URL}/lessonsContent/searchResourcePlaceHolder.png`}
+          src={`${process.env.PUBLIC_URL}/lessonsContent/searchResourcePlaceholder.png`}
           title="search resource placeholder"
           alt="search resource"
           className="resourceImg searchPlaceholderImg"
@@ -19,4 +19,4 @@ const SearchResourcePlaceHolder = () => {
   );
 };
 
-export default SearchResourcePlaceHolder;
+export default SearchResourcePlaceholder;

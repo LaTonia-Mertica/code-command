@@ -40,7 +40,7 @@ import NodeScriptRun from "./components/coding/NodeScriptRun";
 import JsForLoop from "./components/coding/JsForLoop";
 
 // import MacBasicsLessons from "./components/macbasics/MacBasics";
-import MacBasicsResourcePlaceHolder from "./components/macbasics/MacBasicsResourcePlaceHolder";
+import MacBasicsResourcePlaceholder from "./components/macbasics/MacBasicsResourcePlaceholder";
 import AboutMac from "./components/macbasics/AboutMac";
 import CustomizeMac from "./components/macbasics/CustomizeMac";
 import CustomizeMacViaRightClick from "./components/macbasics/CustomizeMacViaRightClick";
@@ -53,7 +53,7 @@ import AddAppToDock from "./components/macbasics/AddAppToDock";
 import OnlineResourcePlaceholder from "./components/online/OnlineResourcePlaceholder";
 
 // import SearchLessons from "./components/search/Search";
-import SearchResourcePlaceholder from "./components/search/SearchResourcePlaceHolder";
+import SearchResourcePlaceholder from "./components/search/SearchResourcePlaceholder";
 import CodeCommenting from "./components/search/CodeCommenting";
 import BreakDownChallenge from "./components/search/BreakDownChallenge";
 import StackOverflowEtc from "./components/search/StackOverflowEtc";
@@ -179,8 +179,8 @@ function App() {
         <Route exact path="/macbasics" element={<MacBasics />}>
           <Route path="AboutMac-noNav" element={<AboutMac />} />
           <Route
-            path="MacBasicsResourcePlaceHolder-noNav"
-            element={<MacBasicsResourcePlaceHolder />}
+            path="MacBasicsResourcePlaceholder-noNav"
+            element={<MacBasicsResourcePlaceholder />}
           />
           <Route path="AboutMac-noNav" element={<AboutMac />} />
           <Route path="CustomizeMac-noNav" element={<CustomizeMac />} />
